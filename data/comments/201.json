@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1853",
+    "parentId": "0",
+    "date": "2010-01-09 01:26:40",
+    "content": "Можно обговорить с тобой каким образом ты заказывал книгу?",
+    "author": "Никита Шехов",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "56304d8e75d4083890608af05dfe3b0d"
+  },
+  {
+    "id": "1854",
+    "parentId": "1853",
+    "date": "2010-01-09 01:47:10",
+    "content": "Несколько человек уже спросили &#x1F60A; <br /> Раз так, сейчас подготовлю отдельный пост с пошаговой инструкцией",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1855",
+    "parentId": "0",
+    "date": "2010-01-09 02:33:55",
+    "content": "Всем кому интересно, как оплатить Smashing Book прошу <a class=\"link\" href=\"/blog/2010-01-09-202\" target=\"_blank\" rel=\"nofollow\">прочитать этот пост</a>",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "2777",
+    "parentId": "0",
+    "date": "2014-11-23 23:11:38",
+    "content": "[&#8230;] уже опробована при оплате Smashing Book и всякой ерунды на dealextreme.com. Всё работает [&#8230;]",
+    "author": "Как оплачивать покупки на зарубежных сайтах. | Поляков Дмитрий",
+    "authorSite": "http://dimapolyakov.ru/blog/2010-01-09-202/",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

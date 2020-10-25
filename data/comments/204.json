@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1862",
+    "parentId": "0",
+    "date": "2010-01-22 13:32:34",
+    "content": "Вчера пришло сообщение на почту от MS. Скачал - установил, все нормально &#x1F60A;",
+    "author": "mrВелес",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "0aa4803a26f52abc6ae450ead8415e4c"
+  },
+  {
+    "id": "1863",
+    "parentId": "0",
+    "date": "2010-01-22 21:49:00",
+    "content": "Мне тоже пришло, интересно где они брали базу адресов? &#x1F609 <br /> Может быть вариант что я у них где-то регистрировался, т.к винда лицинзионная...",
+    "author": "MarchenkovDmitry",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "993759bc8b59511763675884604ef856"
+  },
+  {
+    "id": "1864",
+    "parentId": "1863",
+    "date": "2010-01-22 22:41:01",
+    "content": "Письмо пришло подписчикам рассылки новостей",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1865",
+    "parentId": "0",
+    "date": "2010-02-10 23:29:14",
+    "content": "аха) слышал-слышал.... там пару тысяц компов успели через эту дырку факнуть. то есть хакнуть*",
+    "author": "Алексей Варчак",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "3b49d93b391cf184ff875de1357abaa2"
+  },
+  {
+    "id": "1866",
+    "parentId": "0",
+    "date": "2010-03-06 12:58:42",
+    "content": "Спасибо за совет) Обновился)",
+    "author": "Владислав",
+    "authorSite": "http://bogutskiy.org.ua/",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

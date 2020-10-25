@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1980",
+    "parentId": "0",
+    "date": "2010-04-11 22:24:54",
+    "content": "Сейчас послушаем =))",
+    "author": "kisuhvostik",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "36aed15b84e2c943921b5a44acf16427"
+  },
+  {
+    "id": "1981",
+    "parentId": "0",
+    "date": "2010-04-18 23:43:11",
+    "content": "Кстати, записали второй выпуск u.podcast <p> Говорили в большей степени про саппорт юКоза <br /> <a class=\"link\" target=\"_blank\" href=\"http://upodcast.ru/news/vtoroj_vypusk_support_ucoz_iznutri/2010-04-18-2\" rel=\"nofollow\">http://upodcast.ru/news....04-18-2</a>",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1982",
+    "parentId": "0",
+    "date": "2010-06-11 11:19:05",
+    "content": "А тем временем мы всё записываемся и записываемся!",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

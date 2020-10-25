@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1994",
+    "parentId": "0",
+    "date": "2010-05-28 04:19:09",
+    "content": "А я за d-polyakov.ru голосовал... Ну да ладно, поздравляю!",
+    "author": "SparcO",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1995",
+    "parentId": "0",
+    "date": "2010-05-28 08:43:58",
+    "content": "Поздравляю ! Маладца что на норм. домен переехал ! &#x1F609",
+    "author": "Важенин",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1996",
+    "parentId": "1994",
+    "date": "2010-05-28 09:20:57",
+    "content": "Да ну..этот в разы лучше.",
+    "author": "Никита Лабутин",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1997",
+    "parentId": "0",
+    "date": "2010-05-28 18:06:57",
+    "content": "поздравляю) <br /> хотя лично мое мнение, &quot;поляков.ру&quot; звучит круче)",
+    "author": "USF",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1998",
+    "parentId": "1997",
+    "date": "2010-05-28 18:09:40",
+    "content": "конечно круче, только вот кто мне его отдаст?",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1999",
+    "parentId": "0",
+    "date": "2010-05-28 22:45:07",
+    "content": "да, и кстати, по адресу <a class=\"link\" target=\"_blank\" href=\"http://polyakovdima.ru\" title=\"http://polyakovdima.ru\" rel=\"nofollow\">http://polyakovdima.ru</a> вы тоже попадете ко мне &#x1F60A;",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "2000",
+    "parentId": "0",
+    "date": "2010-06-02 06:37:12",
+    "content": "Зато пока блог переиндексируется пройдет куча времени. Вернуть прошлую посещаемость будет крайне непросто.",
+    "author": "Владимир",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "8aa9c5933600bd27f27a6ec3ea15405e"
+  },
+  {
+    "id": "2001",
+    "parentId": "2000",
+    "date": "2010-06-02 12:54:32",
+    "content": "На старом домене стоит редирект, и все пользователи, обращающиеся к старому домену автоматически перенаправляются на ту же страницу, но уже в новом домене. <br /> Скоро напишу статью как правильно перенести сайт на новый домен.",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "2002",
+    "parentId": "0",
+    "date": "2010-06-15 12:44:37",
+    "content": "А где подробнее почитать как сделать перенос?????",
+    "author": "guest",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

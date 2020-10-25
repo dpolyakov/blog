@@ -1,0 +1,32 @@
+[
+  {
+    "id": "312",
+    "parentId": "0",
+    "date": "2008-06-07 09:04:45",
+    "content": "Журнал Терминал совместно с биржей ссылок Mainlink проводит совместную акцию. Раздают бонусы, читай в моем блоге: iamwork.blogspot.com.",
+    "author": "Александр",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "3b4468239373bcbf09ba5c15694067a8"
+  },
+  {
+    "id": "313",
+    "parentId": "0",
+    "date": "2008-06-08 19:56:06",
+    "content": "Спасибо Александр, я уже в курсе.",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "62480b444c47de8b6e571b99e3613a36"
+  },
+  {
+    "id": "314",
+    "parentId": "0",
+    "date": "2009-11-24 00:26:33",
+    "content": "Жаль что выпуск бумажной версии прекратили. Отличный был журнал",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  }
+]

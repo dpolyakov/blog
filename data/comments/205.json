@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1867",
+    "parentId": "0",
+    "date": "2010-03-13 13:09:33",
+    "content": "Я не любитель iphone, но посты с удовольствием прочитаю &#x1F60A;",
+    "author": "MarchenkovDmitry",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1868",
+    "parentId": "0",
+    "date": "2010-03-13 14:20:31",
+    "content": "Уж лучще чем ничего &#x1F609;",
+    "author": "Виктор",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1869",
+    "parentId": "0",
+    "date": "2010-03-13 16:32:09",
+    "content": "Спасибо за поддержку, друзья. <p> Так же скоро обещаю пост о покупке в prostoprint.com",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1870",
+    "parentId": "0",
+    "date": "2010-03-15 13:38:28",
+    "content": "Почитаем-сь ))",
+    "author": "kisuhvostik",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "36aed15b84e2c943921b5a44acf16427"
+  },
+  {
+    "id": "1871",
+    "parentId": "1870",
+    "date": "2010-03-23 03:30:20",
+    "content": "будем рады &#x1F609;",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "2778",
+    "parentId": "0",
+    "date": "2014-11-23 23:16:15",
+    "content": "[&#8230;] и обещал в прошлом посте начинаю публиковать обзоры интересных приложений для [&#8230;]",
+    "author": "Sleep Cycle или просыпаемся правильно | Поляков Дмитрий",
+    "authorSite": "http://dimapolyakov.ru/blog/sleep-cycle-alarm-clock/",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

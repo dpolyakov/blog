@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1872",
+    "parentId": "0",
+    "date": "2010-03-14 12:49:00",
+    "content": "Отличная програмка. <br /> И еще нашел пару багов. <br /> Информер комментов растягивает страницу по ширине. <br /> Ссылка поставилась криво в конце поста. <br /> И еще если кликнуть по белому фону в посте 2 раза то он почему то становится сероватым &#x1F609; И нельзя ничего выделить.",
+    "author": "MarchenkovDmitry",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1873",
+    "parentId": "1872",
+    "date": "2010-03-14 13:28:57",
+    "content": "Спасибо за отзыв. <br /> <blockquote class=\"quoteMessage\">информер комментов растягивает страницу по ширине.</blockquote> <br /> Скрин? браузер? можно на <a href=\"mailto:bug@polyakov.net.ru\" class=\"link\" rel=\"nofollow\">bug@polyakov.net.ru</a> <br /> Остальное пофиксил, спасибо.",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1874",
+    "parentId": "0",
+    "date": "2010-03-14 13:47:21",
+    "content": "Письмо у тебя на почте &#x1F609",
+    "author": "MarchenkovDmitry",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1875",
+    "parentId": "0",
+    "date": "2010-03-14 16:07:23",
+    "content": "<blockquote class=\"quoteMessage\">Если коротко, то существует 2 фазы сна: <i>фаза быстрого сна</i> фаза медленного глубокого сна (именно в эту фазу мы видим сновидения и спим крепко) и фаза быстрого сна (в эту фазу кровь начинает бежать быстрее, а мы больше ворочаемся).</blockquote> <p> Кажется, вот фраза «<i>фаза быстрого сна</i>» тут лишняя.",
+    "author": "Александр",
+    "authorSite": "http://sushko.pp.ru",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1876",
+    "parentId": "1875",
+    "date": "2010-03-14 16:25:06",
+    "content": "спасибо, поправил. Всё таки ночью лучше тестить эту программку, чем писать ее обзор &#x1F609;",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1877",
+    "parentId": "1876",
+    "date": "2010-03-14 19:46:38",
+    "content": "Вряд ли. Иначе к утру некоторые моменты могли забыться. Возможно, мелочь — но важная. <p> Кстати, на чем тестил? iPod или iPhone?",
+    "author": "Александр",
+    "authorSite": "http://sushko.pp.ru",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1878",
+    "parentId": "0",
+    "date": "2010-03-14 19:49:00",
+    "content": "Кстати, как-то лень искать в интернете эти приятные мелодии. Есть возможность выложить?",
+    "author": "Александр",
+    "authorSite": "http://sushko.pp.ru",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1879",
+    "parentId": "1877",
+    "date": "2010-03-14 20:27:31",
+    "content": "iPhone 3G",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1880",
+    "parentId": "1878",
+    "date": "2010-03-14 20:28:02",
+    "content": "Мелодии &quot;вшиты&quot; в программу и как их оттуда достать я не в курсе...",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1881",
+    "parentId": "0",
+    "date": "2010-03-15 14:19:22",
+    "content": "Нашел их, кажется. <br /> В сообществе ru_mac (ссылка: http://community.livejournal.com/ru_mac/14123815.html). <p> Будет возможность - проверь, то аль не то.",
+    "author": "Hoplite",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "065f8ee24c14b6a004537fa59fef31ca"
+  },
+  {
+    "id": "1882",
+    "parentId": "1881",
+    "date": "2010-03-16 01:58:09",
+    "content": "они самые",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  }
+]

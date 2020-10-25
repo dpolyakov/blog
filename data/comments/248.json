@@ -1,0 +1,362 @@
+[
+  {
+    "id": "2433",
+    "parentId": "0",
+    "date": "2010-09-01 15:22:34",
+    "content": "Фиксированная вёрстка в блоге?",
+    "author": "Садых Садыхов",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2434",
+    "parentId": "2433",
+    "date": "2010-09-01 16:14:13",
+    "content": "частично. Если в css посмотреть, там видно ) <br /> <!--uzcode--><div class=\"bbCodeBlock\"><div class=\"bbCodeName\" style=\"padding-left:5px;font-weight:bold;font-size:7pt\">Code</div><div class=\"codeMessage\" style=\"border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');\"><!--uzc-->max-width:1280px; <br /> min-width:1000px; <br /> <!--/uzc--></div></div><!--/uzcode-->",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "2435",
+    "parentId": "0",
+    "date": "2010-09-04 23:46:09",
+    "content": "если они сделали это 1-го числа(типа для студентов-учеников), то они лоханулись...надо было делать это 25/05 на последний звонок... а ваще они врядли догоняк вк(про фэйсбук молчу) позно спохватились, да и ваще донат там жесткий...",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2436",
+    "parentId": "0",
+    "date": "2010-09-04 23:48:06",
+    "content": "<b>Дмитрий</b>, а почему твой ИД-69? почему 1-й удален и пр.? &#x1F603",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2437",
+    "parentId": "2436",
+    "date": "2010-10-29 14:14:41",
+    "content": "тссс... Так надо &#x1F60A;",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2438",
+    "parentId": "0",
+    "date": "2010-12-03 11:07:26",
+    "content": "&#x1F609",
+    "author": "карина",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2439",
+    "parentId": "0",
+    "date": "2010-12-18 22:01:30",
+    "content": "люди а как какой нить сайт в закладки добавлять &#x1F60A;",
+    "author": "Юляха",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2440",
+    "parentId": "0",
+    "date": "2010-12-29 21:43:31",
+    "content": "Привет всем!Зарегистрировалась в одноклассниках и забыла пароль.Все и всё перебрала!!!Мозг вскипел!!!Можно ли зарегениться ещё РАЗ?!?",
+    "author": "татьяна ермилова",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "6ec9c96463fd416398ee942049111823"
+  },
+  {
+    "id": "2441",
+    "parentId": "2440",
+    "date": "2010-12-30 00:59:44",
+    "content": "воспользуйтесь функцией восстановления пароля",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2442",
+    "parentId": "0",
+    "date": "2011-01-28 13:38:37",
+    "content": "холост",
+    "author": "владимир",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "726173e9b1cb830a42feaf641fdf956a"
+  },
+  {
+    "id": "2443",
+    "parentId": "0",
+    "date": "2011-02-05 23:41:17",
+    "content": "Норм &#x1F60E",
+    "author": "Наташа",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "7a15914b3af408ab22173f6180ec1bfa"
+  },
+  {
+    "id": "2444",
+    "parentId": "0",
+    "date": "2011-04-20 13:43:45",
+    "content": "почему я не могу зайти в одноклассники,пишут неправильный логин и пароль 😟 😢",
+    "author": "Людмила",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "14e6c7940106b3b3ef6c70542ab9002b"
+  },
+  {
+    "id": "2445",
+    "parentId": "0",
+    "date": "2011-04-30 15:02:16",
+    "content": "привет всем! 😕",
+    "author": "Илья",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "aa02a8239c72ab12a2eac3050a05aff6"
+  },
+  {
+    "id": "2446",
+    "parentId": "0",
+    "date": "2011-05-06 13:08:55",
+    "content": "НЕМОГУ ВЫЙТИ НА СВОЮ СТРАНИЦУ Я НОВЕНЬКАЯ ПОДСКАЖИТЕ ЧТО ДЕЛАТЬ",
+    "author": "КРИСТИНА",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "13ac59ee0a782dc8aed815fcd8662701"
+  },
+  {
+    "id": "2447",
+    "parentId": "2446",
+    "date": "2011-05-06 13:13:56",
+    "content": "Ну вы же напишите подробнее, что делаете, как пробуете входить... <br /> Телепатов тут нет...",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2448",
+    "parentId": "0",
+    "date": "2011-05-09 10:35:08",
+    "content": "&#x1F61C",
+    "author": "Владимир",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "9d5c2b10072ac1c79261ebb4359eabd5"
+  },
+  {
+    "id": "2449",
+    "parentId": "0",
+    "date": "2011-05-13 04:28:31",
+    "content": "круто",
+    "author": "саша",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "089a78717bccb27b7b743b2f7ab8d7b2"
+  },
+  {
+    "id": "2450",
+    "parentId": "0",
+    "date": "2011-06-12 10:55:20",
+    "content": "&#x1F603 &#x1F60E &#x1F609 🙂  ",
+    "author": "вероника",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "135e0502c91e8a887737494e6ed09c84"
+  },
+  {
+    "id": "2451",
+    "parentId": "0",
+    "date": "2011-06-12 10:56:50",
+    "content": "veronira",
+    "author": "вероника",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "135e0502c91e8a887737494e6ed09c84"
+  },
+  {
+    "id": "2452",
+    "parentId": "0",
+    "date": "2011-06-12 18:21:09",
+    "content": "я нимог ваети в однокилосники биль уминя строничка",
+    "author": "ramiz",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "1fc10f49fbd318b0356ea943c05a8be5"
+  },
+  {
+    "id": "2453",
+    "parentId": "0",
+    "date": "2011-07-12 21:22:42",
+    "content": "супер, супер, супер!!!!!!!!!!!!!!!!!!))))))))))))))))",
+    "author": "Нелли",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "849a1ae773a2d05ba29944a65885a2e2"
+  },
+  {
+    "id": "2454",
+    "parentId": "0",
+    "date": "2011-07-29 14:11:36",
+    "content": "&#x1F609",
+    "author": "Shuxrat",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "f67d99d570f8e0f9174f46721558405d"
+  },
+  {
+    "id": "2455",
+    "parentId": "0",
+    "date": "2011-07-31 12:44:54",
+    "content": "не могу открыть сообщения,обсуждения,оповещения,прочее... хотела зарегистрироваться снова... выдают мою же страницу",
+    "author": "надежда",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "e2b510be809d163c3efb78b6309b867f"
+  },
+  {
+    "id": "2456",
+    "parentId": "0",
+    "date": "2011-08-23 17:36:22",
+    "content": "Приветики от самого яркого солнышка меня...",
+    "author": "настёнка-сластёнка",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2457",
+    "parentId": "0",
+    "date": "2011-08-25 19:17:30",
+    "content": "😢",
+    "author": "ALEHA",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "575f96f0312379bdc28b844fefc6518e"
+  },
+  {
+    "id": "2458",
+    "parentId": "0",
+    "date": "2011-08-25 19:17:59",
+    "content": "😝",
+    "author": "ALEHA",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "575f96f0312379bdc28b844fefc6518e"
+  },
+  {
+    "id": "2459",
+    "parentId": "0",
+    "date": "2011-09-05 12:45:57",
+    "content": "прикольно",
+    "author": "алина",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "37d27f37b9da011f0132f36506b88565"
+  },
+  {
+    "id": "2460",
+    "parentId": "0",
+    "date": "2011-09-05 12:46:13",
+    "content": "прикольно",
+    "author": "алина",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "37d27f37b9da011f0132f36506b88565"
+  },
+  {
+    "id": "2461",
+    "parentId": "0",
+    "date": "2011-09-29 06:28:41",
+    "content": "Привет",
+    "author": "Галина Шатунова (Гридасова)",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2462",
+    "parentId": "0",
+    "date": "2011-10-11 02:26:00",
+    "content": "ne mogu zaregestrirowatsia na odnoklasnikah, hohu naiti podrugu cshkoly.((((",
+    "author": "анна",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "f834a5b11b1472787e7af7f4ef64643a"
+  },
+  {
+    "id": "2463",
+    "parentId": "0",
+    "date": "2011-10-31 07:20:08",
+    "content": "&#x1F603",
+    "author": "настя",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2464",
+    "parentId": "0",
+    "date": "2011-11-17 19:57:13",
+    "content": "😟",
+    "author": "света",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2465",
+    "parentId": "0",
+    "date": "2011-11-24 17:48:40",
+    "content": "я забыл пароль на сайте одноклассников помогите мне пожалуйста имя моё пощтовый адрес мой",
+    "author": "рафаэль",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "0e77246261b0a6b7bd41faf333cfaf29"
+  },
+  {
+    "id": "2466",
+    "parentId": "0",
+    "date": "2011-11-27 11:18:32",
+    "content": "&#x1F609;",
+    "author": "akang",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2467",
+    "parentId": "0",
+    "date": "2011-12-04 01:36:22",
+    "content": "быстрей бы войти в одноклассники",
+    "author": "krolivets2011",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "e807782b6986eb11ea17499eb8d092fa"
+  },
+  {
+    "id": "2468",
+    "parentId": "0",
+    "date": "2012-01-16 18:07:04",
+    "content": "и 😠 я",
+    "author": "катя",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

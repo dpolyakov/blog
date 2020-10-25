@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2609",
+    "parentId": "0",
+    "date": "2010-12-07 12:29:54",
+    "content": "Благодарю. Вот это серьезно тема, ато с моим казахстанским (самым дорогим инетом и сот. связью в азии) нечего не прочтешь на прямую.",
+    "author": "Дмитрий Астратьян",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2610",
+    "parentId": "0",
+    "date": "2010-12-22 12:55:20",
+    "content": "Спасибп за статью очень пригодилась &#x1F60A;",
+    "author": "вован",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "e276a0b58672a54e02c31e0a051a06cc"
+  },
+  {
+    "id": "2611",
+    "parentId": "0",
+    "date": "2011-03-04 19:18:29",
+    "content": "только вот сохранить можно не более 30 =(",
+    "author": "Lord_ton",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "6b5724499eabfa328c1ad9946c909fea"
+  },
+  {
+    "id": "2612",
+    "parentId": "2611",
+    "date": "2011-03-04 21:09:38",
+    "content": "Там скорее наверно зависит от того, сколько сайт в RSS ленту записей отдает",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

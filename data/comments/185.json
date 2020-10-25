@@ -1,0 +1,22 @@
+[
+  {
+    "id": "590",
+    "parentId": "0",
+    "date": "2009-08-16 18:56:47",
+    "content": "Украина наверное вся замерла в ожидании увидеть кукусик проезжающий мимо их улицы.",
+    "author": "Анатолий",
+    "authorSite": "http://quby.ru",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "591",
+    "parentId": "590",
+    "date": "2009-08-16 21:57:44",
+    "content": "А в тотализаторах начали принимать ставки - вывалиться движок или не &#x1F603",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  }
+]

@@ -1,0 +1,70 @@
+baseURL = "https://dimapolyakov.ru/"
+
+languagecode = "ru-RU"
+defaultContentLanguage = "ru"
+title = "Дмитрий Поляков"
+theme = "axiom"
+enableRobotsTXT = true
+paginate = 10
+canonifyURLs = false
+summaryLength = 60
+rssLimit = 100
+enableEmoji = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+mainSections = ["post"]
+copyrightYear = 2007
+dateFormat = "2 Jan 2006 "
+highlight = "dark"
+
+[params.logo]
+inline = true
+
+
+#[params.image]
+#faviconIco = "favicon.ico"
+#faviconAlt = "favicon-32x32.png"
+#icon1To1 = "favicon192.png"
+#icon2To1 = "favicon384.png"
+
+
+[params.social]
+github = "https://github.com/dpolyakov"
+twitter = "https://twitter.com/dpolyakov"
+facebook = "https://facebook.com/polyakovdima"
+instagram = "https://instagram.com/dpolyakov"
+
+footer = ["twitter", "github", "instagram"]
+
+#[params.services]
+#analyticsId = "UA-171096637-1"
+
+[menu]
+[[menu.main]]
+url = "/blog/"
+name = "Блог"
+weight = 2
+
+
+[outputs]
+home = ["HTML", "ATOM", "RSS"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+taxonomyTerm = ["HTML"]
+
+[outputFormats]
+[outputFormats.ATOM]
+name = "ATOM"
+baseName = "feed"
+mediaType = "application/atom+xml"
+
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = ["atom"]
+
+
+

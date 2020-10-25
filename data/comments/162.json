@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1629",
+    "parentId": "0",
+    "date": "2009-12-12 03:27:15",
+    "content": "<b>хорошая вещь.</b>",
+    "author": "Виктор",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1630",
+    "parentId": "0",
+    "date": "2009-12-30 12:19:38",
+    "content": "Да ну... даже разметки нет...",
+    "author": "Дима",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1631",
+    "parentId": "0",
+    "date": "2010-11-11 23:24:22",
+    "content": "Лучший сервис для построения графиков через интернет",
+    "author": "Skvor",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1632",
+    "parentId": "0",
+    "date": "2011-11-30 14:56:30",
+    "content": "&#x1F609; 😟",
+    "author": "шрек",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "7e3d15125ca7ff76c4d40a5658d9da3d"
+  }
+]

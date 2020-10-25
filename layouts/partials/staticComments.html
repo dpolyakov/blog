@@ -1,0 +1,57 @@
+{{- with .Params.id -}}
+{{- $commentsData := index $.Site.Data.comments  . -}}
+{{- with $commentsData -}}
+<section class="mt-4 mb-4">
+    <header>
+        <h3 class="text-2xl">Комментарии</h3>
+    </header>
+
+    {{- range $commentsData }}
+
+    {{- $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006 3:04PM" -}}
+    {{- $defaultImage := partial "svg/avatar.svg" (dict) | base64Encode -}}
+    {{- $defaultImage = printf "%s%s" "data:image/svg+xml;base64," $defaultImage | safeURL -}}
+    {{- $avatar := "" -}}
+    {{- if .authorEmailMd5 }}
+    {{- $avatar = printf `https://www.gravatar.com/avatar/%s?s=200&d=identicon` .authorEmailMd5 -}}
+    {{- else }}
+    {{- $avatar = $defaultImage}}
+    {{- end -}}
+
+
+    <div class="mt-5" id="comment{{.id}}">
+        <div class="mb-4">
+            <div class="flex items-center">
+                <div class="flex-shrink-0">
+                    <img class="w-12 h-12 sm:w-14 sm:h-14 object-cover p-05 rounded-full border border-blue-300"
+                        src="{{ $avatar }}">
+                </div>
+                <div class="flex-shrink-0 ml-2 leading-tight font-content-sans">
+                    <span class="block text-sm">
+                        {{ .author }}
+                        <span class="text-raven-500 username">
+                            {{ .authorUsername }}
+                        </span>
+                        {{- if gt .parent 0 }}
+                        <span class="text-raven-500">
+                            написал в ответ на <a
+                                class="text-raven-800 hover:text-raven-900 hover:underline focus:underline"
+                                href="#comment{{.parent}}">#{{.parent}}</a>
+                        </span>
+                        {{- end }}
+                    </span>
+                    <time class="text-sm text-raven-500"
+                        datetime="{{ dateFormat "2006-01-02T15:04:05Z" .date | safeHTML }}">{{ dateFormat $dateFormat .date }}</time>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            {{ .content | safeHTML }}
+        </div>
+    </div>
+
+    {{- end }}
+</section>
+{{- end -}}
+{{- end -}}

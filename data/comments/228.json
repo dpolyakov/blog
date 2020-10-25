@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2272",
+    "parentId": "0",
+    "date": "2010-08-13 02:28:26",
+    "content": "Добавил ссылки на прошивку 4.0.2",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2273",
+    "parentId": "0",
+    "date": "2010-09-03 17:20:07",
+    "content": "это как",
+    "author": "Леха",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "1adb0390322713cbe15b25b1027b26c0"
+  },
+  {
+    "id": "2274",
+    "parentId": "0",
+    "date": "2010-09-03 17:23:05",
+    "content": "что нужно сделать чтобы скачать 402 и 401",
+    "author": "Леха",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "1adb0390322713cbe15b25b1027b26c0"
+  },
+  {
+    "id": "2275",
+    "parentId": "2274",
+    "date": "2010-09-03 22:13:56",
+    "content": "Вы не поверите — нажать на соответствующую ссылку и выбрать куда сохранять файл.",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2276",
+    "parentId": "0",
+    "date": "2010-09-10 01:57:00",
+    "content": "Добавлены ссылки на iOS4.1",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2277",
+    "parentId": "0",
+    "date": "2010-09-14 01:15:41",
+    "content": "Это официальные?",
+    "author": "Данил",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2278",
+    "parentId": "2277",
+    "date": "2010-09-14 11:46:56",
+    "content": "Да. Качать будете прямо с серверов Apple",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2279",
+    "parentId": "0",
+    "date": "2010-10-22 17:36:49",
+    "content": "Что за фигня ни на одном форуме не открывается ссылка?",
+    "author": "iPhone",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "12b6db5bb035e328b469f96c7ded5d38"
+  },
+  {
+    "id": "2280",
+    "parentId": "0",
+    "date": "2010-12-17 12:38:47",
+    "content": "Спасибо!!!)))",
+    "author": "Александр",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "a1007765953aa099d719d353099cf981"
+  },
+  {
+    "id": "2281",
+    "parentId": "0",
+    "date": "2011-10-29 02:01:48",
+    "content": "мега респект тебе чувак спасибо",
+    "author": "Олег",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2282",
+    "parentId": "0",
+    "date": "2011-12-23 06:45:44",
+    "content": "а какую мне прошивку скачать на китайчкий айфон 4gs",
+    "author": "//////////////",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "5717b3c302fb74f7ddb8a8cd138a91d3"
+  },
+  {
+    "id": "2283",
+    "parentId": "0",
+    "date": "2012-05-10 23:29:38",
+    "content": "для iphona 3g есть более высокая версия чем 4.2.1",
+    "author": "/////",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "6e2c0dc911270f028cf478c71131e39f"
+  }
+]

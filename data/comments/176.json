@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1681",
+    "parentId": "0",
+    "date": "2009-06-22 00:57:57",
+    "content": "Очень любопытно =)) <br /> А пост с 440 комментариями впечатлил &#x1F609;",
+    "author": "kisuhvostik",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "36aed15b84e2c943921b5a44acf16427"
+  },
+  {
+    "id": "1682",
+    "parentId": "0",
+    "date": "2009-06-22 05:05:15",
+    "content": "Знал бы ты, сколько жалоб я обработал о том, что ты накручиваешь хосты...",
+    "author": "Миша Абасов",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "f4b2fa51c009b82c184f601282409556"
+  },
+  {
+    "id": "1683",
+    "parentId": "1682",
+    "date": "2009-06-22 09:14:24",
+    "content": "Упс. Я даже не подозревал... <br /> Всем любопытным - <a class=\"link\" target=\"_blank\" href=\"http://www.liveinternet.ru/stat/polyakov.net.ru/\" rel=\"nofollow\">http://www.liveinternet.ru/stat/polyakov.net.ru/</a> - статистика открыта полностью",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1684",
+    "parentId": "0",
+    "date": "2009-06-25 11:20:01",
+    "content": "Да, за последнее время ты серьёзно поднялся.",
+    "author": "Roman",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "38de750c810fa81e21b229936fa03018"
+  },
+  {
+    "id": "1685",
+    "parentId": "1684",
+    "date": "2009-06-25 19:55:59",
+    "content": "Спасибо, приятно слышать",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  }
+]

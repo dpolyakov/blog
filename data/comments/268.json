@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2589",
+    "parentId": "0",
+    "date": "2010-10-30 04:02:35",
+    "content": "а под iPhone 3G он подойдет?",
+    "author": "Игорь",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2590",
+    "parentId": "2589",
+    "date": "2010-10-31 10:16:43",
+    "content": "На сколько я понял - да",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2591",
+    "parentId": "0",
+    "date": "2010-11-26 18:51:08",
+    "content": "увидел слово джэил брейк, сразу захотел расскозать о Лимериане, но опоздал &#x1F603",
+    "author": "saynov",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "40e987d38426f7109582280d82e3b6c7"
+  },
+  {
+    "id": "2592",
+    "parentId": "0",
+    "date": "2011-10-26 18:56:31",
+    "content": "А что делать, если в процессе закачки у меня комп отключился и теперь не включается, а на айфоне горит usb k itunes? И не включается!",
+    "author": "Alina",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2593",
+    "parentId": "2592",
+    "date": "2011-10-30 21:13:46",
+    "content": "Активировать через iTunes",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

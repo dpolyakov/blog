@@ -1,0 +1,162 @@
+[
+  {
+    "id": "653",
+    "parentId": "0",
+    "date": "2010-12-23 18:49:23",
+    "content": "за исключением того что первый пункт можно и не выполнять, просто выполнить второй пункт скопировав всю папку в профиль, вместе с почтой и будет счастье",
+    "author": "Марина",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "e209623161c434c1d480750fd3578daf"
+  },
+  {
+    "id": "654",
+    "parentId": "0",
+    "date": "2011-03-06 20:34:13",
+    "content": "Спасибо за подробную инструкцию. TB постоянно забивал системный диск, надоело. Теперь хорошо &#x1F60A;",
+    "author": "Magenta-heaven",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "174b471e18df8c75404fd762543c3754"
+  },
+  {
+    "id": "655",
+    "parentId": "654",
+    "date": "2011-03-06 21:55:15",
+    "content": "всегда пожалуйста",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "656",
+    "parentId": "0",
+    "date": "2012-02-09 00:03:26",
+    "content": "Автору надо учить русский!!! <br /> А за информацию - благодарю!",
+    "author": "Александр",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "b46766688a5900d12edc4d21edd3f757"
+  },
+  {
+    "id": "657",
+    "parentId": "0",
+    "date": "2013-04-12 14:48:00",
+    "content": "Команда вызова очень важна - thunderbird.exe -ProfileManager за это огромное спасибо - а для несведущих, команда важна ,т.к. переносить приходится не только с компа на комп, но и с xp напр на 2003сервер и + вариации на тему 32-64 бит. Без нее часто мы можем увидеть - &quot;Ваш профиль не обнаружен&quot; &#x1F60A;",
+    "author": "Николаич",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "a0e1e7a997ecd1f4e740327a7a39a2a1"
+  },
+  {
+    "id": "658",
+    "parentId": "0",
+    "date": "2013-11-26 16:42:20",
+    "content": "Спасибо автору, по этой статье я заставил Thunderbird из нескольких компьютеров сети работать с единой базой почты и настроек (так нужно дома) под Windows 7. <br /> Только оказалось, что на каждом компе Thunderbird ищет (и создает,если не находит такого)файлик <br /> %Системный_диск%:&#92;Documents and Settings&#92;%Ваше_имя_пользользователя%&#92;Application Data&#92; <br /> Thunderbird&#92;Profiles.ini в котором есть название и путь к нужному профилю. <br /> То есть, перенеся профили в другое место, мы все равно оставляем файлик Profiles.ini на системном диске.",
+    "author": "Богдан",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "3371",
+    "parentId": "0",
+    "date": "2015-01-20 00:19:15",
+    "content": "[&#8230;] почты в Thunderbird с помощью Dropbox — перенесите папку с профилем Thunderbird в вашу [&#8230;]",
+    "author": "Dropbox. Всё про броськоробку | Поляков Дмитрий",
+    "authorSite": "http://dimapolyakov.ru/blog/dropbox/",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "3372",
+    "parentId": "0",
+    "date": "2015-01-20 00:23:09",
+    "content": "[&#8230;] прошлом посте я рассказывал как перенести профиль и почту в Mozilla Thunderbird. В этот раз расскажу как перенести и быстро включить [&#8230;]",
+    "author": "Перенос профиля в Mozilla Firefox. Продолжаем&#8230; | Поляков Дмитрий",
+    "authorSite": "http://dimapolyakov.ru/blog/2009-01-10-135/",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "5300",
+    "parentId": "0",
+    "date": "2015-05-10 17:51:14",
+    "content": "не Application Data, а AppData - \"грамотеи\".   Посмотреть  адрес можно в настройках профиля Thunderbird !",
+    "author": "ыф",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "5ed682ffa48b116ffda4d3b30aebf75a"
+  },
+  {
+    "id": "6665",
+    "parentId": "5300",
+    "date": "2015-07-25 19:26:32",
+    "content": "Все зависит от версии Windows. В Windows 7 и новее Thunderburd действительно по умолчанию хранит профили в %Системный_диск%:\\Users\\%Ваше_имя_пользользователя%\\AppData\\Roaming\\Thunderbird\\Profiles",
+    "author": "dima",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "7731",
+    "parentId": "0",
+    "date": "2015-10-28 03:54:30",
+    "content": "А нельзя просто скопировать папку с жутким названием из C:\\Users\\имя_пользователя\\AppData\\Roaming\\Thunderbird\\Profiles\r<br/>в архив, а потом после установки новой винды (или новой версии Thunderbird)  просто записать её обратно в такую же папку?\r<br/>Зачем нужно создавать новый профиль, если он уже существует?",
+    "author": "Тацусян",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "c01dbd2cea5902537746486789b93473"
+  },
+  {
+    "id": "7734",
+    "parentId": "7731",
+    "date": "2015-10-28 11:43:32",
+    "content": "Несомненно можно.<br/>Но вам нужно будет не забыть до форматирования системного диска скопировать эту папку. Ну и каждый раз при переустановке системы ее туда копировать.<br/>Хотя, спасибо Майкрософту, с выхода вин7 переустанавливать систему нужно сильно реже)",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "9841",
+    "parentId": "0",
+    "date": "2016-08-08 11:04:14",
+    "content": "Сделал всё по вашему описанию и в итоге пропала 1 из 2-х профилей почт.. Общая осталась, а личная исчезла и добавились огромная куча непонятных папок...",
+    "author": "Евгений",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "a58fd67b1af9c8bd45f51bcb68ea8b75"
+  },
+  {
+    "id": "9932",
+    "parentId": "0",
+    "date": "2016-09-12 01:52:23",
+    "content": "Спасибо автору! \r<br/>Перелопатил в инете массу мусора, а оказалось все просто. Все сработало на Windows 10, Thunderbird 45.3",
+    "author": "Александр",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "6da64352382eb30d1faf454545816587"
+  },
+  {
+    "id": "10083",
+    "parentId": "0",
+    "date": "2016-11-07 20:27:03",
+    "content": "Чтобы сделать резервную копию вашего профиля необходимо закрыть Thunderbird и скопировать папку, содержащую ваш профиль, в другое место.",
+    "author": "lomaster",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "6972fd0e4686773b9f0c34635dc12f7d"
+  },
+  {
+    "id": "12699",
+    "parentId": "0",
+    "date": "2017-12-09 06:23:50",
+    "content": "Всё сработало, наконец-то появилось свободное пространство. \r<br/>Спасибо!!!!",
+    "author": "Арт",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "e6de7c1ecad2ccd474dc0459c004310b"
+  }
+]

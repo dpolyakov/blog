@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2579",
+    "parentId": "0",
+    "date": "2010-10-04 19:20:06",
+    "content": "А я TweaksLogon испльзую, хотя Windows 7 Account Screen Editor тоже неплохой вариант.",
+    "author": "marchenkovdmitry",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2580",
+    "parentId": "0",
+    "date": "2010-10-05 16:03:39",
+    "content": "Плохо то, что для такого нужно применять какие-то сторонние программки. Это должно средствами системы выполняться, имхо. Могли бы добавить настройку в Персонализацию.",
+    "author": "Дмитрий",
+    "authorSite": "http://teatronic.net",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2581",
+    "parentId": "2580",
+    "date": "2010-10-05 17:17:38",
+    "content": "Есть подозрение, что это какая-то опция, которая где-то спрятана в настройках, или просто файлик, потому что все быстро меняется на лету. <p> Примерно как в Windows9x нужно было заменить файлик в windows чтобы изменить надпись «Теперь питание компьютера можно отключить» на свою.",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2582",
+    "parentId": "0",
+    "date": "2010-10-06 12:20:14",
+    "content": "Спасибо) как раз захотелось что-то новое) в внешнем виде винды..",
+    "author": "xpacmanx mau",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2583",
+    "parentId": "0",
+    "date": "2011-02-22 01:23:18",
+    "content": "Windows 7 Account Screen Editor заморочка пустая всё делает лутше LogonStudio вот ссылочка http://www.stardock.com/downloads/ ест ешё интересного посмотрите",
+    "author": "Ja",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "9d8dced497f03da3ac69cecc71a4280c"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2626",
+    "parentId": "0",
+    "date": "2011-01-18 16:56:56",
+    "content": "Сколько у тебя уже гигов? =)",
+    "author": "Вадим",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2627",
+    "parentId": "0",
+    "date": "2011-01-18 16:57:09",
+    "content": "Блин, чертова подписка.",
+    "author": "Вадим",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2628",
+    "parentId": "0",
+    "date": "2011-01-18 17:08:32",
+    "content": "Я, кстати, в это квесте попал в ТОП-200 &#x1F603",
+    "author": "Вадим",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2629",
+    "parentId": "2626",
+    "date": "2011-01-18 17:44:03",
+    "content": "Всякими хитростями и рефералами прокачал до 7 &#x1F60A; <br /> Надо еще один зарегать.",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

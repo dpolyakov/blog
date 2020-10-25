@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2492",
+    "parentId": "0",
+    "date": "2010-09-16 00:03:30",
+    "content": "Видел это на другом сайте.",
+    "author": "старушкин",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "233a4a698eb1362033d9afceb9814ba1"
+  },
+  {
+    "id": "2493",
+    "parentId": "2492",
+    "date": "2010-09-16 02:11:20",
+    "content": "Не может быть ))",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2494",
+    "parentId": "0",
+    "date": "2010-09-18 15:03:28",
+    "content": "Поставил себе «Bing Dynamic». Очень круто)",
+    "author": "Руслан",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "2495",
+    "parentId": "0",
+    "date": "2010-09-18 22:24:20",
+    "content": "Красивые темы. Осталось всего ничего - поставить Windows 7 &#x1F603",
+    "author": "Мемуз",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "2644b3813819825cffcee3e60e35ecd3"
+  },
+  {
+    "id": "2496",
+    "parentId": "0",
+    "date": "2011-02-12 11:15:21",
+    "content": "+1 =)",
+    "author": "сергей",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

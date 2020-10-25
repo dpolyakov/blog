@@ -1,0 +1,42 @@
+[
+  {
+    "id": "176",
+    "parentId": "0",
+    "date": "2008-11-14 15:19:51",
+    "content": "отлично",
+    "author": "lexs",
+    "authorSite": "http:///www.polyakov.net.ru/blog",
+    "approved": true,
+    "authorEmailMd5": "b95e92d4cc1b1e034b294a2667f7bbd0"
+  },
+  {
+    "id": "177",
+    "parentId": "0",
+    "date": "2009-01-05 01:06:58",
+    "content": "ты смотри какой догадливый ))) (молотсяга)",
+    "author": "Sergey",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "178",
+    "parentId": "0",
+    "date": "2009-01-13 22:24:33",
+    "content": "Я тоже как то попался на этот казус, слава богу быстро разобрался:)",
+    "author": "связист",
+    "authorSite": "http://mobiobzor.com",
+    "approved": true,
+    "authorEmailMd5": "f937611920a79f57d7ae32c3145cedec"
+  },
+  {
+    "id": "179",
+    "parentId": "0",
+    "date": "2009-06-22 08:31:33",
+    "content": "Спасибо за статью",
+    "author": "DitPiemiBef",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "2be1ed2fbb992a7a926928ed987857db"
+  }
+]

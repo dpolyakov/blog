@@ -1,0 +1,52 @@
+[
+  {
+    "id": "334",
+    "parentId": "0",
+    "date": "2009-01-20 00:45:03",
+    "content": "бля я обосусь щаз &#x1F603",
+    "author": "Степа",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "335",
+    "parentId": "2001",
+    "date": "2010-03-22 12:09:01",
+    "content": "Спасибо. Всегда рад новым читателям",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "336",
+    "parentId": "0",
+    "date": "2010-04-08 19:17:57",
+    "content": "отличный материал для копипаста ) не боитесь воров?",
+    "author": "terens hill",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "56914e915a4f68525905e836d78bed98"
+  },
+  {
+    "id": "337",
+    "parentId": "336",
+    "date": "2010-04-09 17:28:12",
+    "content": "нет, не боюсь",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "338",
+    "parentId": "0",
+    "date": "2010-04-12 12:47:28",
+    "content": "+10",
+    "author": "blinds65",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "3981b93139382f2360ce81a7e472a59e"
+  }
+]

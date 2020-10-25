@@ -1,0 +1,42 @@
+[
+  {
+    "id": "573",
+    "parentId": "0",
+    "date": "2009-08-29 09:54:45",
+    "content": "Прикольную фишку придумали <br /> Гмейл так, кажется, не умеет",
+    "author": "kisuhvostik",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "36aed15b84e2c943921b5a44acf16427"
+  },
+  {
+    "id": "574",
+    "parentId": "573",
+    "date": "2009-08-29 10:07:59",
+    "content": "Ага. До этого все улучшения в яндекс.почте были скорее скопированы с gmail&#96;а, а тут что-то новенькое, своё...",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "575",
+    "parentId": "0",
+    "date": "2009-08-29 13:46:25",
+    "content": "Ух.. каждый месяц чё то новое придумывают. Что же дальше будет..",
+    "author": "Jagyar09",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "576",
+    "parentId": "0",
+    "date": "2012-10-05 23:58:28",
+    "content": "честно говоря в talk fusion поинтересней и поярче всё выглядит... <br /> а это даже аналогом talk fusion назвать тяжко.. &#x1F60A;",
+    "author": "R-tem",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "df5c8d2dcc7b640426941f9735a90d7a"
+  }
+]

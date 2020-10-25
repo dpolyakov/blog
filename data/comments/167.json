@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1642",
+    "parentId": "0",
+    "date": "2009-10-15 11:36:17",
+    "content": "Привет!",
+    "author": "Эл",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1643",
+    "parentId": "0",
+    "date": "2010-09-04 23:41:17",
+    "content": "<blockquote class=\"quoteMessage\">Grand Trief Auto</blockquote> <br /> а ведь правильно писать <b>G</b>rand <b>T</b>heft <b>A</b>uto...лучше уж пишите GTA &#x1F60A;",
+    "author": "saynov",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "40e987d38426f7109582280d82e3b6c7"
+  },
+  {
+    "id": "1644",
+    "parentId": "1643",
+    "date": "2010-09-05 00:57:04",
+    "content": "спасибо, поправил.",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1645",
+    "parentId": "0",
+    "date": "2011-11-03 19:40:34",
+    "content": "КРУТАЯ ИГРА &#x1F603",
+    "author": "миша-сын",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+]

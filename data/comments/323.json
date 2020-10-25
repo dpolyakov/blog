@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2751",
+    "parentId": "0",
+    "date": "2012-08-08 16:32:45",
+    "content": "Исправь ошибки &#x1F60A; А с постом согласен, а в сапе если быть не резидентом — налога нет, поэтому там большинство «иностранцев»",
+    "author": "Владимир Духовник",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "ea8b5cfb1f807eb4c59094a6cfe6b9f8"
+  },
+  {
+    "id": "2752",
+    "parentId": "2751",
+    "date": "2012-08-08 17:03:48",
+    "content": "некоторые ошибки допущены сознательно. <br /> Какие тебя смутили?",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "2753",
+    "parentId": "0",
+    "date": "2012-08-16 13:05:44",
+    "content": "Любят у нас денежку стричь с простого гражданина. Граждане в ответ ищут, как бы от обдиралова свалить. Государство, видя это, упорствует и наглеет пуще прежнего - как так в интернет ведь большая кормушка не почата!",
+    "author": "Виталий Гришин",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "a87fbbbd65e03b15de6f7215a0dbd9f5"
+  },
+  {
+    "id": "2754",
+    "parentId": "0",
+    "date": "2014-02-17 18:28:14",
+    "content": "Не для публикации на сайте &quot;аффара предложения&quot; - вот опечатка",
+    "author": "Екатерина",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "75434d37610d644d50bc63dca85f04e0"
+  },
+  {
+    "id": "2755",
+    "parentId": "2754",
+    "date": "2014-02-17 18:39:32",
+    "content": "Спасибо что заметили, но это <a class=\"link\" href=\"https://lurkmore.to/%C0%F4%F4%F2%E0%F0\" title=\"https://lurkmore.to/%C0%F4%F4%F2%E0%F0\" target=\"_blank\" rel=\"nofollow\">намеренно</a> &#x1F60A;",
+    "author": "Дмитрий",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  }
+]

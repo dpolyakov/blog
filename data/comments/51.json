@@ -1,0 +1,22 @@
+[
+  {
+    "id": "310",
+    "parentId": "0",
+    "date": "2008-06-07 09:08:22",
+    "content": "Да я смотрел, было супер, мы все таки чемпионы!",
+    "author": "Александр",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "3b4468239373bcbf09ba5c15694067a8"
+  },
+  {
+    "id": "311",
+    "parentId": "0",
+    "date": "2009-03-29 20:21:06",
+    "content": "&#x1F60A;",
+    "author": "broady",
+    "authorSite": "http://3daycom.ru",
+    "approved": true,
+    "authorEmailMd5": "f5e2e46272c8d73918205ea6816630f1"
+  }
+]

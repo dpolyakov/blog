@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1672",
+    "parentId": "0",
+    "date": "2009-06-17 10:10:10",
+    "content": "Поздравляем!Поздравляем!Поздравляем!Поздравляем!",
+    "author": "Дима",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "id": "1673",
+    "parentId": "1672",
+    "date": "2009-06-17 11:37:07",
+    "content": "Спасибо &#x1F609;",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  },
+  {
+    "id": "1674",
+    "parentId": "0",
+    "date": "2009-06-17 11:53:53",
+    "content": "<span style=\"color:green\">Поздравляем! Поздравляем! Поздравляем! Поздравляем! Поздравляем!</span> <br /> <span style=\"color:red\">Поздравляем! Поздравляем! Поздравляем! Поздравляем!</span> <br /> <span style=\"color:blue\">Поздравляем! Поздравляем! Поздравляем!</span> <br /> <span style=\"color:orange\">Поздравляем! Поздравляем!</span> <br /> <span style=\"color:red\">Поздравляем!!!!</span>",
+    "author": "kisuhvostik",
+    "authorSite": "http://www.kisuhvostik.ru",
+    "approved": true,
+    "authorEmailMd5": "36aed15b84e2c943921b5a44acf16427"
+  },
+  {
+    "id": "1675",
+    "parentId": "0",
+    "date": "2009-06-17 11:55:21",
+    "content": "Ой, что т я намутила с тегами =)) <br /> Вообщем ПОЗДРАВЛЯЕМ =)) <br /> у мя защита 1 июЛя",
+    "author": "kisuhvostik",
+    "authorSite": "",
+    "approved": true,
+    "authorEmailMd5": "36aed15b84e2c943921b5a44acf16427"
+  },
+  {
+    "id": "1676",
+    "parentId": "1675",
+    "date": "2009-06-17 12:28:32",
+    "content": "Тань, спасибо! <br /> Теги поправил. <br /> Тебе удачи!",
+    "author": "Дмитрий",
+    "authorSite": "http://dimapolyakov.ru",
+    "approved": true,
+    "authorEmailMd5": "b36bc6a67a41870e7d8dc3dde55b671c"
+  }
+]
