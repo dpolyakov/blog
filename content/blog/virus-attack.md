@@ -6,8 +6,9 @@ id: '192'
 type: post
 slug: virus-attack
 categories:
-  - Про интернет
-  - Про компы
+- Про интернет
+
+- Про компы
 tags:
   - бекап
   - пароли

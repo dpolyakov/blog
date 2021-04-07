@@ -12,6 +12,7 @@ tags:
   - mi band
   - xiaomi
   - умные часы
+feature: /uploads/2019/06/IMG_2856-1.jpg
 ---
 
   
@@ -58,7 +59,7 @@ tags:
   
   
 
-![](/uploads/2019/06/IMG_2856-1-1024x768.jpg)
+![](/uploads/2019/06/IMG_2856-1.jpg)
 
   
   

@@ -1,6 +1,60 @@
 {{- with .Params.id -}}
 {{- $commentsData := index $.Site.Data.comments  . -}}
 {{- with $commentsData -}}
+<style>
+    .mt-4 {
+        margin-top: 1rem;
+    }
+
+    .mt-5 {
+        margin-top: 1.25rem;
+    }
+
+    .mb-4 {
+        margin-bottom: 1rem;
+    }
+
+    .ml-2 {
+        margin-left: 0.5rem;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .items-center {
+        align-items: center;
+    }
+
+    .flex-shrink-0 {
+        flex-shrink: 0;
+    }
+
+    .leading-tight {
+        line-height: 1.25;
+    }
+
+    .text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    .w-12 {
+        width: 3rem;
+    }
+    .h-12 {
+    height: 3rem;
+}
+    .object-cover {
+    
+    object-fit: cover;
+}
+.border {
+    border-width: 1px;
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+</style>
 <section class="mt-4 mb-4">
     <header>
         <h3 class="text-2xl">Комментарии</h3>
@@ -27,7 +81,7 @@
                         src="{{ $avatar }}">
                 </div>
                 <div class="flex-shrink-0 ml-2 leading-tight font-content-sans">
-                    <span class="block text-sm">
+                    <div class="block text-sm">
                         {{ .author }}
                         <span class="text-raven-500 username">
                             {{ .authorUsername }}
@@ -39,7 +93,7 @@
                                 href="#comment{{.parent}}">#{{.parent}}</a>
                         </span>
                         {{- end }}
-                    </span>
+                    </div>
                     <time class="text-sm text-raven-500"
                         datetime="{{ dateFormat "2006-01-02T15:04:05Z" .date | safeHTML }}">{{ dateFormat $dateFormat .date }}</time>
                 </div>
