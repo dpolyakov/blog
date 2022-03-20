@@ -3,7 +3,7 @@ baseURL = "https://dimapolyakov.ru/"
 languagecode = "ru-RU"
 defaultContentLanguage = "ru"
 title = "Дмитрий Поляков"
-theme = "hugo-theme-meme"
+theme = "meme"
 
 # Pluralize titles in lists?
 pluralizeListTitles = false
@@ -19,6 +19,8 @@ footnoteReturnLinkContents = "↩"
 
 # Enable `.GitInfo` object for each page?
 enableGitInfo = false
+
+
 
 # Enable generation of `robots.txt` file?
 enableRobotsTXT = true
@@ -233,7 +235,7 @@ uglyURLs = false
 [params]
     ######################################
     # Header
-
+    yandexMetrikaId = 912262
     enableHeader = true
 
     enableHeaderAutoHide = true
@@ -972,7 +974,7 @@ uglyURLs = false
     ######################################
     ## Line Height
 
-    lineHeight = 1.618
+    lineHeight = 1.8
     # Note: apply to post paragraph & toc
     #       only
 
