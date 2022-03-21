@@ -9,12 +9,12 @@ slug: send-fax
 
 Озадачили тут знакомые проблемкой: срочно нужно было отправить факс, а факсимильного аппарата нет. А нужно вот прям срочно. Помню была чудная программка Venta Fax Modem, но, если мне не изменяет память, была она платной, и требовала поковыряться в настройках. Сами они ее настроить не смогли, а я приехать ну никак не мог. Решили искать другие пути и, как оказалось, не зря! Прогресс дошел до того что теперь отправить факс можно прямо с сайта, не устанавливая никаких программ.
 
-Мы воспользовались сайтом [www.myfax.com](http://www.myfax.com/free/sendfax.aspx "http://www.myfax.com/free/sendfax.aspx")
+Мы воспользовались сайтом [www.myfax.com](https://www.myfax.com/free/sendfax.aspx "https://www.myfax.com/free/sendfax.aspx")
 
 Все просто: заполняем поля кому (с указанием телефона), от кого, прикрепляем документ который нужно выслать (подойдут форматы Microsoft Word, Excel, PowerPoint, PDF, TIF, GIF, JPEG, и др.) и жамкаем «Send Fax».
 
 [![](/uploads/_bl/2/s88516914.jpg)](/uploads/_bl/2/88516914.jpg "Нажмите, для просмотра в полном размере...")
 
 Всё получилось без сучка и задоринки. Когда уже писал статью нашел еще пару сервисов:  
-[www.freepopfax.com](http://www.freepopfax.com/ "http://www.freepopfax.com/")  
-[www.freefaxbutton.com](http://www.freefaxbutton.com/russia_+7.php "http://www.freefaxbutton.com/russia_+7.php")
+[www.freepopfax.com](https://www.freepopfax.com/ "https://www.freepopfax.com/")  
+[www.freefaxbutton.com](https://www.freefaxbutton.com/russia_+7.php "https://www.freefaxbutton.com/russia_+7.php")

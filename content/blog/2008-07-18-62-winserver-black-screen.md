@@ -24,41 +24,41 @@ tags:
 [![](/uploads/_bl/0/s20891.jpg)](/uploads/_bl/0/20891.jpg "Нажмите, для просмотра в полном размере...")
 
   
-Кое как залогинился - все работает, что несказанно порадовало. я уж думал переставлять заново всё нужно будет. Начал искать решение в нете - помог [Хабр](http://habrahabr.ru/blog/windows/46595.html). Как выяснилось - причиной стала нехватка места на системном диске (как потом выяснил у себя - темпы разрослись до жути), в следствии чего винда зачем то скинула настройки в реестре. Нафига - не знает даже майкрософт )))  
+Кое как залогинился - все работает, что несказанно порадовало. я уж думал переставлять заново всё нужно будет. Начал искать решение в нете - помог [Хабр](https://habrahabr.ru/blog/windows/46595.html). Как выяснилось - причиной стала нехватка места на системном диске (как потом выяснил у себя - темпы разрослись до жути), в следствии чего винда зачем то скинула настройки в реестре. Нафига - не знает даже майкрософт )))  
 
 Оказалось, чтовы все вернуть взад ))) то есть как и было, нужно освободить место и поправить реестр вот так:  
-
->   
-> \[HKEY\_USERS\\.DEFAULT\\Control Panel\\Colors\]  
-> "ActiveBorder"="212 208 200"  
-> "ActiveTitle"="10 36 106"  
-> "AppWorkSpace"="128 128 128"  
-> "Background"="102 111 116"  
-> "ButtonAlternateFace"="181 181 181"  
-> "ButtonDkShadow"="64 64 64"  
-> "ButtonFace"="212 208 200"  
-> "ButtonHilight"="255 255 255"  
-> "ButtonLight"="212 208 200"  
-> "ButtonShadow"="128 128 128"  
-> "ButtonText"="0 0 0"  
-> "GradientActiveTitle"="166 202 240"  
-> "GradientInactiveTitle"="192 192 192"  
-> "GrayText"="128 128 128"  
-> "Hilight"="10 36 106"  
-> "HilightText"="255 255 255"  
-> "HotTrackingColor"="0 0 128"  
-> "InactiveBorder"="212 208 200"  
-> "InactiveTitle"="128 128 128"  
-> "InactiveTitleText"="212 208 200"  
-> "InfoText"="0 0 0"  
-> "InfoWindow"="255 255 225"  
-> "Menu"="212 208 200"  
-> "MenuText"="0 0 0"  
-> "Scrollbar"="212 208 200"  
-> "TitleText"="255 255 255"  
-> "Window"="255 255 255"  
-> "WindowFrame"="0 0 0"  
-> "WindowText"="0 0 0"  
-
+```
+  
+[HKEY_USERS.DEFAULT.Control Panel.Colors]  
+"ActiveBorder"="212 208 200"  
+"ActiveTitle"="10 36 106"  
+"AppWorkSpace"="128 128 128"  
+"Background"="102 111 116"  
+"ButtonAlternateFace"="181 181 181"  
+"ButtonDkShadow"="64 64 64"  
+"ButtonFace"="212 208 200"  
+"ButtonHilight"="255 255 255"  
+"ButtonLight"="212 208 200"  
+"ButtonShadow"="128 128 128"  
+"ButtonText"="0 0 0"  
+"GradientActiveTitle"="166 202 240"  
+"GradientInactiveTitle"="192 192 192"  
+"GrayText"="128 128 128"  
+"Hilight"="10 36 106"  
+"HilightText"="255 255 255"  
+"HotTrackingColor"="0 0 128"  
+"InactiveBorder"="212 208 200"  
+"InactiveTitle"="128 128 128"  
+"InactiveTitleText"="212 208 200"  
+"InfoText"="0 0 0"  
+"InfoWindow"="255 255 225"  
+"Menu"="212 208 200"  
+"MenuText"="0 0 0"  
+"Scrollbar"="212 208 200"  
+"TitleText"="255 255 255"  
+"Window"="255 255 255"  
+"WindowFrame"="0 0 0"  
+"WindowText"="0 0 0"  
+```
   
 После ребута у меня всё вернулось на свои места.

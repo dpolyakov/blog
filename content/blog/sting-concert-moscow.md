@@ -14,7 +14,7 @@ tags:
 
   
 
-25 июля всемирно известный [Стинг дал сольный концерт в СК «Олимпийский»](https://ad.admitad.com/g/8a44e8868a4a46a058c5ab8da1c9bd/?ulp=https%3A%2F%2Fwww.parter.ru%2Fartist%2Fsting%2F&subid=sting). И я там побывал)
+25 июля всемирно известный {{<admidad program="afisha" id="artist/sting" title="Стинг дал концерт" >}}. И я там побывал)
 
   
   

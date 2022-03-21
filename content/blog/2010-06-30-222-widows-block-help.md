@@ -17,10 +17,10 @@ slug: 2010-06-30-222
 
 Итак, начнем пошагово:
 
-*   По информации от пользователей и знакомых я выяснил, что чаще всего заражение происходит через Internet Explorer 6. Поэтому первым делом скачиваем [Internet Explorer 8](http://www.microsoft.com/rus/windows/internet-explorer/worldwide-sites.aspx).
+*   По информации от пользователей и знакомых я выяснил, что чаще всего заражение происходит через Internet Explorer 6. Поэтому первым делом скачиваем [Internet Explorer 8](https://www.microsoft.com/rus/windows/internet-explorer/worldwide-sites.aspx).
 *   Обновление Windows вторая немаловажная вещь. Если у вас Windows лицензионная или «честно купленная», которая проходит проверку на сайте Microsoft — обязательно включите автоматическое обновление.  
-    Скачать единый **[пакет со всеми обновлениями для Windows XP Service Pack 3](http://depositfiles.com/files/0xomd8oba)** по июнь 2010 можно [здесь](http://depositfiles.com/files/0xomd8oba).
-*   Постоянно обновленный антивирус. Я рекомендую купить лицензию, того же Касперского или Доктора Веба, благо стоят они порядка 1000рублей за годовую лицензию. Если денег нет — можно попробовать бесплатный антивирус от Microsoft - [Microsoft Security Essentials](http://depositfiles.com/files/4vhbzrdad "http://depositfiles.com/files/4vhbzrdad"). Ну или любой другой — благо в интернете полно обзоров бесплатных антивирусов.
+    Скачать единый **[пакет со всеми обновлениями для Windows XP Service Pack 3](https://depositfiles.com/files/0xomd8oba)** по июнь 2010 можно [здесь](https://depositfiles.com/files/0xomd8oba).
+*   Постоянно обновленный антивирус. Я рекомендую купить лицензию, того же Касперского или Доктора Веба, благо стоят они порядка 1000рублей за годовую лицензию. Если денег нет — можно попробовать бесплатный антивирус от Microsoft - [Microsoft Security Essentials](https://depositfiles.com/files/4vhbzrdad "https://depositfiles.com/files/4vhbzrdad"). Ну или любой другой — благо в интернете полно обзоров бесплатных антивирусов.
 *   Ну и конечно не лазить по порнушным сайтам и не открывать непонятные письма в почте.
 
   

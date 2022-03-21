@@ -21,7 +21,7 @@ slug: checked
   
 
   
-*   [aviasales](http://www.aviasales.ru/?marker=18712) — думаю в представлении не нуждается, годный поисковик дешевых билетов
+*   [aviasales](https://www.aviasales.ru/?marker=18712) — думаю в представлении не нуждается, годный поисковик дешевых билетов
   
 *   [Травелата - гипермаркет туров](https://c18.travelpayouts.com/click?shmarker=18712&promo_id=734&source_type=link&type=click) — отличный сервис для покупки путёвок.
   
@@ -34,10 +34,7 @@ slug: checked
 
 Одежда и обувь
 --------------
-
   
-
+*   {{<admidad program="lamoda" id="/women-home/" title="Lamoda">}}	 — хороший сервис заказа одежды.
   
-*   [Lamoda](https://modato.ru/g/3f2779c2d44a46a058c54e8640d77b/) — хороший сервис заказа одежды.
-  
-*   [Lucky Child](https://modato.ru/g/3f2779c2d44a46a058c54e8640d77b/?ulp=https%3A%2F%2Fwww.lamoda.ru%2Fb%2F29362%2Fbrand-lucky-child%2F&subid=lucky-child) — детская одежда отличного качества от российского производителя (теперь есть на ЛаМоде!)
+*   {{<admidad program="lamoda" id="/b/29362/brand-lucky-child" title="Lucky Child" >}} — детская одежда отличного качества от российского производителя (теперь есть на ЛаМоде!)

@@ -30,11 +30,4 @@ slug: raw-image-in-explorer
   
   
 
-Второй минус так же решается на удивление просто: у Microsoft оказывается есть **[Microsoft Camera Codec Pack](https://www.microsoft.com/ru-ru/download/details.aspx?id=26829 "http://www.microsoft.com/ru-ru/download/details.aspx?id=26829")**, после установки которого raw\`ы прекрасно просматриваются в проводнике и [фотоколлекции Window Live](/blog/2010-10-06-266), а также в других программах на основе кодеков Windows Imaging Codec (WIC).
-
-  
-  
-  
-  
-
-[Пакет кодеков](https://www.microsoft.com/ru-ru/download/details.aspx?id=26829) доступен как для 32-х битной ОС, так и 64-х битной.
+Второй минус так же решается на удивление просто: у Microsoft оказывается есть **[Microsoft Camera Codec Pack](https://www.microsoft.com/en-us/download/details.aspx?id=40310)**, после установки которого raw\`ы прекрасно просматриваются в проводнике и [фотоколлекции Window Live](/blog/2010-10-06-266), а также в других программах на основе кодеков Windows Imaging Codec (WIC).
