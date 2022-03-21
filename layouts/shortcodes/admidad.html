@@ -35,7 +35,7 @@
 {{- end -}}
 
 
-{{- $finalUrl = (printf `%s/g/%s/?ulp=%s&subId=%s` $admidAdBase $programId $retPath $subId) -}}
+{{- $finalUrl = (printf `%s/g/%s/?ulp=%s&subid=%s` $admidAdBase $programId $retPath $subId) -}}
 
 
 <a href="{{$finalUrl}}" title="{{.Params.title  | safeHTML}}" target="_blank" rel="noopener noindex nofollow">{{.Params.title | markdownify}}</a>
