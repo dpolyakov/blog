@@ -1,5 +1,6 @@
-{{- $externalLink := strings.HasPrefix .Destination "http"}}
-<a href="{{ .Destination | safeURL }}" 
-{{ with .Title}} title="{{ . }}" {{ end }}
-{{- if $externalLink}} target="_blank" rel="noopener noindex" {{ end }}
->{{ .Text | safeHTML }}</a>
+<a href="{{ .Destination | safeURL }}"
+{{ with .Title}} title="{{ . | safeHTML }}"{{ end }}
+{{ if strings.HasPrefix .Destination "http" }} 
+target="_blank" rel="noopener noindex nofollow"
+{{ end }}>{{ .Text | safeHTML }}
+</a>

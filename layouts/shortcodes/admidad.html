@@ -1,0 +1,42 @@
+{{/*
+	AdmidAd (https://store.admitad.com/ru/promo/?ref=654e7a4b03) partner links.
+
+	Usage: {{<admidad program="_program_name_" id="_relative_link_to_offer_" title="_text_link_" >}}
+	Example: {{<admidad program="aliexpress" id="32976119005" title="Amazfit Bip" >}}	
+*/}}
+
+{{- $subId := $.Page.Params.slug -}}
+{{- $productId := .Params.id -}}
+{{- $program := .Params.program -}}
+
+{{- $admidAdBase := "https://ad.admitad.com" -}}
+
+{{- $finalUrl := "" -}}
+{{- $programId := "" -}}
+{{- $retPath := "" -}}
+
+
+{{- if eq $program "aliexpress" -}}
+	{{- $programId = "vv3q4oey1v4a46a058c5b6d1781017" -}}
+	{{- $retPath = (printf `https://aliexpress.ru/item/%s.html` $productId) -}}
+	{{- $admidAdBase = "https://alitems.site"}}
+{{- end -}}
+
+
+{{- if eq $program "afisha" -}}
+	{{- $programId = "9y9zbxr10l4a46a058c5342c94faa7" -}}
+	{{- $retPath = (printf `https://afisha.yandex.ru/%s` $productId) -}}
+{{- end -}}
+
+{{- if eq $program "lamoda" -}}
+	{{- $programId = "3f2779c2d44a46a058c54e8640d77b" -}}
+	{{- $retPath = (printf `https://www.lamoda.ru/%s` $productId) -}}
+	{{- $admidAdBase = "https://modato.ru"}}
+{{- end -}}
+
+
+{{- $finalUrl = (printf `%s/g/%s/?ulp=%s&subId=%s` $admidAdBase $programId $retPath $subId) -}}
+
+
+<a href="{{$finalUrl}}" title="{{.Params.title  | safeHTML}}" target="_blank" rel="noopener noindex nofollow">{{.Params.title | markdownify}}</a>
+
