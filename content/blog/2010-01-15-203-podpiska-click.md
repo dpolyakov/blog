@@ -5,7 +5,7 @@ author: dima
 id: '203'
 type: post
 slug: platnaya-podpuska-po-ssylke
-alias: 
+aliases: 
   - 2010-01-15-203
 categories:
   - Про жизнь

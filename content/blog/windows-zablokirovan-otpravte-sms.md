@@ -5,7 +5,7 @@ author: dima
 id: '152'
 type: post
 slug: windows-zablokirovan-otpravte-sms
-alias: 
+aliases: 
   - 2009-04-10-152
 categories:
   - Про компы

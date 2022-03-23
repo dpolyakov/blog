@@ -5,7 +5,7 @@ author: dima
 id: '67'
 type: post
 slug: windows-vista-money-back
-alias: 
+aliases: 
   - 2008-07-25-67
 categories:
   - Про компы

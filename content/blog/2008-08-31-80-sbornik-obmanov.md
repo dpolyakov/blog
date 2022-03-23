@@ -5,7 +5,7 @@ author: dima
 id: '80'
 type: post
 slug: sbornik-obmanov
-alias: 
+aliases: 
   - 2008-08-31-80
 categories:
   - Про жизнь

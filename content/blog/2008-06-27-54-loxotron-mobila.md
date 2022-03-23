@@ -5,7 +5,7 @@ author: dima
 id: '220'
 type: post
 slug: obman-phone-sale
-alias: 
+aliases: 
   - 2008-06-27-54
 categories:
   - Про жизнь

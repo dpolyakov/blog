@@ -5,7 +5,7 @@ author: dima
 id: '62'
 type: post
 slug: windows-server-black-screen
-alias: 
+aliases: 
   - 2008-07-18-62
 categories:
   - Про компы

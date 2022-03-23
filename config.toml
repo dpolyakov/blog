@@ -1084,7 +1084,7 @@ uglyURLs = false
     #       `gitinfo` in post’s Front Matter
     #       has a higher priority than here
 
-    repoURL = ""
+    repoURL = "https://github.com/dpolyakov/blog"
     repoEditURL = ""
 
     gitIcon = "code-branch"
@@ -1123,7 +1123,7 @@ uglyURLs = false
     shareOnQQ = false
     shareOnQzone = false
 
-    shareViaQRCode = false
+    shareViaQRCode = true
 
 
     ######################################

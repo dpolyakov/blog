@@ -5,7 +5,7 @@ author: dima
 id: '158'
 type: post
 slug: propal-rabochiy-stol-windows
-alias: 
+aliases: 
   - 2009-04-30-158
 categories:
   - Про компы

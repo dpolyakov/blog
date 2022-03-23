@@ -5,7 +5,7 @@ author: dima
 id: '61'
 type: post
 slug: windows-quick-net-switch-by-asus
-alias: 
+aliases: 
   - 2008-06-16-43
 categories:
   - Про компы
