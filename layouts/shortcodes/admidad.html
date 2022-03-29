@@ -18,7 +18,11 @@
 
 {{- if eq $program "aliexpress" -}}
 	{{- $programId = "vv3q4oey1v4a46a058c5b6d1781017" -}}
-	{{- $retPath = (printf `https://aliexpress.ru/item/%s.html` $productId) -}}
+	{{- if $productId -}}
+		{{- $retPath = (printf `https://aliexpress.ru/item/%s.html` $productId) -}}
+	{{- else -}}
+		{{- $retPath = (printf `https://aliexpress.ru`) -}}
+	{{- end -}}	
 	{{- $admidAdBase = "https://alitems.site"}}
 {{- end -}}
 
@@ -35,7 +39,7 @@
 {{- end -}}
 
 
-{{- $finalUrl = (printf `%s/g/%s/?ulp=%s&subid=%s` $admidAdBase $programId $retPath $subId) -}}
+{{- $finalUrl = (printf `%s/g/%s/?subid=%s&ulp=%s` $admidAdBase $programId $subId $retPath) -}}
 
 
 <a href="{{$finalUrl}}" title="{{.Params.title  | safeHTML}}" target="_blank" rel="noopener noindex nofollow">{{.Params.title | markdownify}}</a>
