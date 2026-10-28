@@ -1,0 +1,9 @@
+name = "Polyakov"
+license = "MIT"
+description = "A quiet, readable personal blog with light and dark themes."
+min_version = "0.168.0"
+tags = ["blog", "minimal", "responsive", "dark", "light"]
+
+[author]
+name = "Дмитрий Поляков"
+homepage = "https://dimapolyakov.ru/"

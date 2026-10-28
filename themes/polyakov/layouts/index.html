@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ $pages := where .Site.RegularPages "Section" "in" (.Site.Params.mainSections | default (slice "blog")) }}
+  <div class="shell">
+    <header class="listing-header">
+      <h1>Посты</h1>
+      <div class="listing-toolbar"><span>{{ len $pages }} {{ partial "post-count.html" (len $pages) }}</span><a href="{{ "blog/" | relURL }}">Архив по годам <span aria-hidden="true">↗</span></a></div>
+    </header>
+    {{ $paginator := .Paginate ($pages.ByPublishDate.Reverse) }}
+    <div class="post-feed">
+      {{ range $index, $page := $paginator.Pages }}
+        {{ if eq (mod $index 5) 0 }}{{ partial "card-group.html" (first 5 (after $index $paginator.Pages)) }}{{ end }}
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}

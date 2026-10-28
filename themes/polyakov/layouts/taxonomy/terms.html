@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <div class="shell">
+    <header class="listing-header"><p class="eyebrow">Навигация по блогу</p><h1>{{ if eq .Data.Singular "category" }}Категории{{ else }}Теги{{ end }}</h1></header>
+    <ul class="term-list">
+      {{ range .Data.Terms.Alphabetical }}<li><a href="{{ .Page.RelPermalink }}"><span>{{ .Page.LinkTitle }}</span><span class="term-count">{{ .Count }}</span></a></li>{{ end }}
+    </ul>
+  </div>
+{{ end }}

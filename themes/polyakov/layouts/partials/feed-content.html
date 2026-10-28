@@ -1,0 +1,5 @@
+{{- $content := .content -}}
+{{- $page := .page -}}
+{{- $content = $content | replaceRE ` (href|src)="/([^/"])` (printf ` $1="%s$2` $page.Site.BaseURL) -}}
+{{- $content = $content | replaceRE ` (href|src)="#` (printf ` $1="%s#` $page.Permalink) -}}
+{{- return $content -}}

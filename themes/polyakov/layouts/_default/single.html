@@ -1,0 +1,39 @@
+{{ define "main" }}
+  {{ $isPost := in (.Site.Params.mainSections | default (slice "blog")) .Section }}
+  {{ $cover := partial "cover.html" . }}
+  {{ $showTOC := and (.Param "enableTOC") (ne .Params.toc false) (gt (len (findRE `<a href=` .TableOfContents 1)) 0) }}
+  <article class="post shell post-publication">
+    <div class="post-layout">
+    <header class="post-header">
+      <div class="post-heading">
+        <h1>{{ .Title }}</h1>
+        {{ if $isPost }}{{ partial "meta.html" (dict "page" . "linkCategories" true) }}{{ end }}
+        {{ with .Description | default .Params.summary }}<div class="post-description">{{ . | markdownify }}</div>{{ end }}
+        {{ if .Site.Params.displayAuthor }}<p class="post-author">{{ partial "author.html" . }}</p>{{ end }}
+        {{ with .GetTerms "tags" }}<ul class="post-tags" aria-label="Теги">{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>{{ end }}
+      </div>
+      {{ with $cover.src }}<div class="hero-image"><img src="{{ . }}" alt="{{ $.Title }}" fetchpriority="high"{{ if $cover.width }} width="{{ $cover.width }}" height="{{ $cover.height }}"{{ end }}></div>{{ end }}
+    </header>
+      <aside class="post-sidebar" aria-label="Содержание статьи"{{ if not $showTOC }} aria-hidden="true"{{ end }}>
+        {{ if $showTOC }}<details class="toc"><summary>Содержание</summary>{{ .TableOfContents }}</details>{{ end }}
+      </aside>
+    <div class="reading-column">
+      <div class="prose">{{ .Content }}</div>
+      {{ if $isPost }}
+        {{ if .Site.Params.enablePostShare }}<div class="post-actions"><button type="button" class="copy-link" hidden>Скопировать ссылку <span aria-hidden="true">↗</span></button></div>{{ end }}
+        {{ if .Site.Params.enablePostNav }}
+          <nav class="post-navigation" aria-label="Соседние публикации">
+            <div>{{ with .NextInSection }}<span class="eyebrow">Новее</span><a href="{{ .RelPermalink }}">← {{ .LinkTitle }}</a>{{ end }}</div>
+            <div>{{ with .PrevInSection }}<span class="eyebrow">Раньше</span><a href="{{ .RelPermalink }}">{{ .LinkTitle }} →</a>{{ end }}</div>
+          </nav>
+        {{ end }}
+      {{ end }}
+    </div>
+    </div>
+  </article>
+  {{ if and $isPost .Site.Params.enableRelatedPosts (ne .Params.related false) }}
+    {{ with .Site.RegularPages.Related . | first (.Site.Params.relatedPostsNumber | default 5) }}
+      <section class="related shell" aria-labelledby="related-title"><h2 id="related-title">Читайте также</h2><div class="post-grid">{{ range . }}{{ partial "card.html" (dict "page" .) }}{{ end }}</div></section>
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,10 @@
+{{- $entries := slice -}}
+{{- range where .Site.RegularPages "Section" "in" (.Site.Params.mainSections | default (slice "blog")) -}}
+  {{- $entry := dict "uri" .RelPermalink "title" .Title "content" (.Plain | htmlUnescape) -}}
+  {{- with .Params.subtitle -}}{{- $entry = merge $entry (dict "subtitle" (. | markdownify | plainify | htmlUnescape)) -}}{{- end -}}
+  {{- if $.Site.Params.displayPostDescription -}}{{- $entry = merge $entry (dict "description" (.Description | markdownify | plainify | htmlUnescape)) -}}{{- end -}}
+  {{- if $.Site.Params.displayCategory -}}{{- $entry = merge $entry (dict "categories" .Params.categories) -}}{{- end -}}
+  {{- if $.Site.Params.enablePostTags -}}{{- $entry = merge $entry (dict "tags" .Params.tags) -}}{{- end -}}
+  {{- $entries = $entries | append $entry -}}
+{{- end -}}
+{{- $entries | jsonify -}}

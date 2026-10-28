@@ -1,0 +1,16 @@
+{{ $page := .page }}
+{{ $cover := partial "cover.html" $page }}
+<article class="post-card{{ if not $cover.src }} post-card-text{{ end }}{{ if .wide }} post-card-wide{{ end }}">
+  <a class="card-link" href="{{ $page.RelPermalink }}" aria-label="{{ $page.LinkTitle }}">
+  {{ with $cover.src }}
+    <div class="card-cover">
+      <img src="{{ . }}" alt="" loading="lazy" decoding="async"{{ if $cover.width }} width="{{ $cover.width }}" height="{{ $cover.height }}"{{ end }}>
+    </div>
+  {{ end }}
+  <div class="card-content">
+    {{ partial "meta.html" (dict "page" $page "linkCategories" false) }}
+    <h2>{{ $page.LinkTitle }}</h2>
+    <p class="card-summary">{{ $page.Description | default $page.Summary | plainify | htmlUnescape | truncate 260 }}</p>
+  </div>
+  </a>
+</article>

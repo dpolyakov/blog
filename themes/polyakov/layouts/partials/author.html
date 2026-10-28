@@ -1,0 +1,6 @@
+{{- $name := .Site.Params.author.name | default .Site.Title -}}
+{{- with .Params.author -}}
+  {{- $name = . -}}
+  {{- with index hugo.Data.author . -}}{{- $name = .name | default $name -}}{{- end -}}
+{{- end -}}
+{{- return $name -}}

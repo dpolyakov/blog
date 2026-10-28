@@ -1,0 +1,17 @@
+{{ $automatic := "" }}
+{{ $manual := false }}
+{{ range . }}
+  {{ $size := .Params.cardSize | default "auto" | lower }}
+  {{ if eq $size "wide" }}
+    {{ $manual = true }}
+  {{ else if and (ne $size "normal") (not $automatic) }}
+    {{ $automatic = .RelPermalink }}
+  {{ end }}
+{{ end }}
+<div class="post-grid post-grid-rhythm">
+  {{ range . }}
+    {{ $size := .Params.cardSize | default "auto" | lower }}
+    {{ $wide := or (eq $size "wide") (and (not $manual) (eq .RelPermalink $automatic)) }}
+    {{ partial "card.html" (dict "page" . "wide" $wide) }}
+  {{ end }}
+</div>

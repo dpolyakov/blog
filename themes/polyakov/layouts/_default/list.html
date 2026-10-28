@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <div class="shell">
+    <header class="listing-header">
+      <p class="eyebrow">{{ if eq .Kind "term" }}{{ if eq .Data.Singular "tag" }}Тег{{ else }}Категория{{ end }}{{ else }}Публикации{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="listing-description prose">{{ . }}</div>{{ end }}
+      <div class="listing-toolbar"><span>{{ len .RegularPagesRecursive }} {{ partial "post-count.html" (len .RegularPagesRecursive) }}</span></div>
+    </header>
+    {{ if and (eq .Kind "section") (eq .Section "blog") }}
+      <div class="archive">
+        {{ range .RegularPagesRecursive.GroupByPublishDate "2006" }}
+          <section class="archive-year" aria-labelledby="year-{{ .Key }}">
+            <h2 id="year-{{ .Key }}">{{ .Key }}</h2>
+            <ul>{{ range .Pages }}<li><time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "02.01" }}</time><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>
+          </section>
+        {{ end }}
+      </div>
+    {{ else }}
+      <div class="post-grid">{{ range (.Paginate (.RegularPagesRecursive.ByPublishDate.Reverse)).Pages }}{{ partial "card.html" (dict "page" .) }}{{ end }}</div>
+      {{ partial "pagination.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

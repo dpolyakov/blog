@@ -1,0 +1,71 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fafafa">
+  {{ hugo.Generator }}
+  {{ $title := .Site.Title }}
+  {{ if not .IsHome }}{{ $title = printf "%s · %s" .Title .Site.Title }}{{ end }}
+  <title>{{ $title }}</title>
+  <script>
+    (function () {
+      document.documentElement.classList.add('js');
+      var theme;
+      try { theme = localStorage.getItem('theme'); } catch (_) {}
+      if (theme !== 'light' && theme !== 'dark') theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = theme;
+      document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#181818' : '#fafafa';
+    })();
+  </script>
+  {{ $css := slice (resources.Get "css/polyakov.css") (resources.Get "css/chroma.css") | resources.Concat "css/polyakov.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ $description := .Description }}
+  {{ if not $description }}
+    {{ if .IsPage }}{{ $description = .Summary | plainify | htmlUnescape }}
+    {{ else }}{{ $description = .Site.Params.siteDescription | default .Site.Title }}{{ end }}
+  {{ end }}
+  {{ $author := partial "author.html" . }}
+  {{ $cover := partial "cover.html" . }}
+  {{ $image := $cover.src }}
+  {{ if not $image }}{{ with .Params.images }}{{ $image = index . 0 }}{{ end }}{{ end }}
+  {{ if and (not $image) .IsPage .Site.Params.autoDetectImages }}
+    {{ with findRESubmatch `<img[^>]+src="([^"]+)"` .Content 1 }}{{ $image = index (index . 0) 1 }}{{ end }}
+  {{ end }}
+  {{ $image = $image | default .Site.Params.siteLogo }}
+  <meta name="description" content="{{ $description | plainify }}">
+  <meta name="author" content="{{ $author }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ if or .Draft (eq .Kind "404") }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  <link rel="icon" type="image/svg+xml" href="{{ "icons/polyakov.svg" | relURL }}">
+  {{ with .OutputFormats.Get "SectionsAtom" }}<link rel="alternate" type="{{ .MediaType }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">{{ end }}
+  {{ with .OutputFormats.Get "SectionsRSS" }}<link rel="alternate" type="{{ .MediaType }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">{{ end }}
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ .Title | default .Site.Title }}">
+  <meta property="og:description" content="{{ $description | plainify }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:locale" content="{{ replace .Site.Language.Locale "-" "_" }}">
+  <meta property="og:type" content="{{ if and .IsPage (in .Site.Params.mainSections .Section) }}article{{ else }}website{{ end }}">
+  {{ with $image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <meta name="twitter:card" content="{{ if $cover.src }}summary_large_image{{ else }}summary{{ end }}">
+  <meta name="twitter:title" content="{{ .Title | default .Site.Title }}">
+  <meta name="twitter:description" content="{{ $description | plainify }}">
+  {{ with $image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+  {{ with .Site.Params.siteTwitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
+  {{ $schema := dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Permalink "description" $description }}
+  {{ if .IsPage }}
+    {{ $schema = dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "url" .Permalink "mainEntityOfPage" .Permalink "description" $description "author" (dict "@type" "Person" "name" $author) "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") }}
+    {{ if in (.Site.Params.mainSections | default (slice "blog")) .Section }}
+      {{ $schema = merge $schema (dict "@type" "BlogPosting" "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) "description" ($description | markdownify | plainify | htmlUnescape) "inLanguage" .Site.Language.Locale "wordCount" .WordCount "articleSection" .Section) }}
+      {{ with .Params.tags }}{{ $schema = merge $schema (dict "keywords" .) }}{{ end }}
+    {{ end }}
+    {{ with $image }}{{ $schema = merge $schema (dict "image" (. | absURL)) }}{{ end }}
+    <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{ end }}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+  {{ with .Site.Params.googleSiteVerification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+  {{ if eq hugo.Environment "production" }}
+    {{ partial "metrika.html" . }}
+    {{ partial "gtag.html" . }}
+  {{ end }}
+</head>

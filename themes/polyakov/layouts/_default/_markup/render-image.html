@@ -1,0 +1,8 @@
+{{- $src := .Destination | safeURL -}}
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- if and (not $image) (strings.HasPrefix .Destination .Page.RelPermalink) -}}
+  {{- $image = .Page.Resources.GetMatch (strings.TrimPrefix .Page.RelPermalink .Destination) -}}
+{{- end -}}
+{{- if $image -}}{{- $src = $image.RelPermalink -}}{{- end -}}
+<img src="{{ $src }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async"{{ if and $image (ne $image.MediaType.SubType "svg") }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }}>
+{{- with .Title }}<span class="image-caption">{{ . }}</span>{{ end -}}

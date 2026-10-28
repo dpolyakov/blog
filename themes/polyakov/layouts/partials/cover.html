@@ -1,0 +1,16 @@
+{{- $cover := dict "src" "" "width" 0 "height" 0 -}}
+{{- with .Params.feature -}}
+  {{- $src := . -}}
+  {{- $resource := $.Resources.GetMatch . -}}
+  {{- if and (not $resource) (strings.HasPrefix $src $.RelPermalink) -}}
+    {{- $resource = $.Resources.GetMatch (strings.TrimPrefix $.RelPermalink $src) -}}
+  {{- end -}}
+  {{- if and $resource (ne $resource.MediaType.SubType "svg") -}}
+    {{- $cover = dict "src" $resource.RelPermalink "width" $resource.Width "height" $resource.Height -}}
+  {{- else if $resource -}}
+    {{- $cover = dict "src" $resource.RelPermalink "width" 0 "height" 0 -}}
+  {{- else -}}
+    {{- $cover = dict "src" ($src | relURL) "width" 0 "height" 0 -}}
+  {{- end -}}
+{{- end -}}
+{{- return $cover -}}

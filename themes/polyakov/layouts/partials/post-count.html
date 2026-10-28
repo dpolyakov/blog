@@ -1,0 +1,5 @@
+{{- $word := "постов" -}}
+{{- if and (ge (mod . 100) 11) (le (mod . 100) 14) -}}
+{{- else if eq (mod . 10) 1 -}}{{- $word = "пост" -}}
+{{- else if in (slice 2 3 4) (mod . 10) -}}{{- $word = "поста" -}}{{- end -}}
+{{- return $word -}}

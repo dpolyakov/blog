@@ -1,0 +1,5 @@
+<div class="post-meta">
+  <time datetime="{{ .page.PublishDate.Format "2006-01-02" }}">{{ .page.PublishDate | time.Format ":date_long" }}</time>
+  <span aria-hidden="true">·</span><span>{{ .page.ReadingTime }} мин чтения</span>
+  {{ with .page.GetTerms "categories" }}<span aria-hidden="true">·</span>{{ range first 1 . }}{{ if $.linkCategories }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ else }}<span>{{ .LinkTitle }}</span>{{ end }}{{ end }}{{ end }}
+</div>

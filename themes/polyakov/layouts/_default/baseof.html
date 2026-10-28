@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+{{ partial "head.html" . }}
+<body>
+  {{ if eq hugo.Environment "production" }}
+    {{ with .Site.Params.yandexMetrikaId }}<noscript><img src="https://mc.yandex.ru/watch/{{ . }}" class="metrika-pixel" width="1" height="1" alt=""></noscript>{{ end }}
+  {{ end }}
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  {{ partial "header.html" . }}
+  <main id="main" class="site-main" tabindex="-1">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  <dialog class="image-viewer" aria-label="Просмотр изображения">
+    <button class="viewer-close" type="button" aria-label="Закрыть изображение">Закрыть <span aria-hidden="true">×</span></button>
+    <img alt="">
+  </dialog>
+  {{ $script := resources.Get "js/polyakov.js" | minify | fingerprint }}
+  <script src="{{ $script.RelPermalink }}" defer></script>
+</body>
+</html>

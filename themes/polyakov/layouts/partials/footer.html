@@ -1,0 +1,8 @@
+<footer class="site-footer shell">
+  <a class="footer-brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+  <div class="footer-links">
+    <a href="{{ "rss.xml" | relURL }}">RSS</a>
+    <a href="{{ "atom.xml" | relURL }}">Atom</a>
+    <span>© {{ now.Year }}</span>
+  </div>
+</footer>
