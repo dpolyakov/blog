@@ -1,0 +1,54 @@
+name: Build and deploy blog
+
+on:
+  push:
+    branches:
+      - public
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blog-production
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_ENVIRONMENT: production
+      HUGO_ENABLEGITINFO: "true"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          submodules: recursive
+          persist-credentials: false
+
+      - name: Install Hugo Extended
+        uses: peaceiris/actions-hugo@v3.2.1
+        with:
+          hugo-version: "0.168.0"
+          extended: true
+
+      - name: Build site
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+        run: hugo --gc --minify
+
+      - name: Verify AWS CLI
+        run: aws --version
+
+      - name: Configure S3 path-style addressing
+        run: aws configure set default.s3.addressing_style path
+
+      - name: Deploy site to Yandex Object Storage
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ru-central1
+        run: |
+          aws --endpoint-url=https://storage.yandexcloud.net \
+            s3 sync public/ s3://dimapolyakov.ru/ --delete
