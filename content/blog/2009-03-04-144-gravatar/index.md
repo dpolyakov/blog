@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Граватары в комментах
-date: '2009-03-04 01:31:55'
+date: '2009-03-04 01:31:00'
 author: dima
 id: '144'
 type: post

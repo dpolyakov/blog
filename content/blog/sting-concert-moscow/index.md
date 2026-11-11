@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Сольный концерт Стинга в Москве
-date: '2012-07-26 01:05:04'
+date: '2012-07-26 01:05:00'
 author: dima
 id: '322'
 type: post
@@ -11,7 +12,7 @@ tags:
   - концерт
   - я там был
 
-feature: /blog/sting-concert-moscow/95372855.jpg
+feature: /uploads/95372855.jpg
 ---
 
 25 июля 2012 года всемирно известный Стинг дал концерт. И я там побывал

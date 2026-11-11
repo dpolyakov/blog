@@ -1,6 +1,6 @@
 ---
 title: Прислали Ubuntu 8.04
-date: '2008-05-25 22:17:34'
+date: '2008-05-25 22:17:00'
 author: dima
 id: '54'
 type: post

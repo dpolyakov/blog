@@ -1,0 +1,67 @@
+media:
+  input: static/uploads
+  output: /uploads
+  extensions: [jpg, jpeg, png, gif, webp, svg]
+
+content:
+  - name: posts
+    label: Статьи
+    type: collection
+    path: content/blog
+    format: yaml-frontmatter
+    subfolders: true
+    exclude: [_index.md]
+    filename:
+      template: "{primary}/index.md"
+      field: false
+    view:
+      layout: tree
+      node:
+        filename: index.md
+        hideDirs: others
+      fields: [title, date, draft]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Заголовок
+        type: string
+        required: true
+      - name: date
+        label: Дата публикации
+        type: date
+        required: true
+        options:
+          time: true
+          format: yyyy-MM-dd HH:mm:ss
+      - name: draft
+        label: Черновик
+        type: boolean
+        default: true
+      - name: description
+        label: Краткое описание
+        type: text
+      - name: feature
+        label: Обложка
+        type: image
+      - name: categories
+        label: Категории
+        type: string
+        list: true
+      - name: tags
+        label: Теги
+        type: string
+        list: true
+      - name: body
+        label: Текст
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+
+settings:
+  content:
+    merge: true

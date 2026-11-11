@@ -1,6 +1,6 @@
 ---
 title: polyakov.net.ru → dimapolyakov.ru
-date: '2010-05-28 02:04:56'
+date: '2010-05-28 02:04:00'
 author: dima
 id: '301'
 type: post

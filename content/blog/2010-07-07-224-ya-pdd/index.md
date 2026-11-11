@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Обзор Яндекс.Почты для домена
-date: '2010-07-07 22:08:46'
+date: '2010-07-07 22:08:00'
 author: dima
 id: '306'
 type: post

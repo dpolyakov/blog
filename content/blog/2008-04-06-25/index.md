@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Мошенники!
-date: '2008-04-06 21:54:53'
+date: '2008-04-06 21:54:00'
 author: dima
 id: '44'
 type: post

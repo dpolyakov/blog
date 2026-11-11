@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Как откатить прошивку iOS4.0.2 до 4.0.1 или 4.0 на iPhone 3Gs
-date: '2010-09-03 14:27:59'
+date: '2010-09-03 14:27:00'
 author: dima
 id: '247'
 type: post

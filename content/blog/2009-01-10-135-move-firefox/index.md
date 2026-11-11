@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Перенос профиля в Mozilla Firefox на другой диск.
-date: '2009-01-10 18:59:29'
+date: '2009-01-10 18:59:00'
 author: dima
 id: '135'
 type: post

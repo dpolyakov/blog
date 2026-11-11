@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Mozilla Thunderbird. Перенос профиля и почты.
-date: '2009-01-09 01:10:04'
+date: '2009-01-09 01:10:00'
 author: dima
 id: '134'
 type: post

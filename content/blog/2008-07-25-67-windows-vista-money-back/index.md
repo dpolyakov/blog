@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Деньги за предустановленную Windows Vista можно вернуть!
-date: '2008-07-25 01:25:26'
+date: '2008-07-25 01:25:00'
 author: dima
 id: '67'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Nokia 6300. Мой новый мобильный друг
-date: '2008-09-20 23:58:29'
+date: '2008-09-20 23:58:00'
 author: dima
 id: '88'
 type: post

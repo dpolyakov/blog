@@ -1,6 +1,6 @@
 ---
 title: Мудрость
-date: '2008-02-11 23:38:13'
+date: '2008-02-11 23:38:00'
 author: dima
 id: '11'
 type: post

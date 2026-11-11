@@ -1,6 +1,6 @@
 ---
 title: Ура! Я доделал smolparfum.ru
-date: '2007-11-13 01:10:55'
+date: '2007-11-13 01:10:00'
 author: dima
 id: '27'
 type: post

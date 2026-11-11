@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Аська опять не работает
-date: '2008-10-03 23:37:35'
+date: '2008-10-03 23:37:00'
 author: dima
 id: '91'
 type: post

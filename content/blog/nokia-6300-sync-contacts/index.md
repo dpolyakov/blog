@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Синхронизация контактов телефона через SyncML
-date: '2009-08-04 02:24:28'
+date: '2009-08-04 02:24:00'
 author: dima
 id: '181'
 type: post

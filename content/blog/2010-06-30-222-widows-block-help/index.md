@@ -1,6 +1,7 @@
 ---
+draft: false
 title: 'Защита от вируса «Windows заблокирован, отправьте SMS»'
-date: '2010-06-30 15:22:21'
+date: '2010-06-30 15:22:00'
 author: dima
 id: '304'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Просмотр RAW в проводнике Windows
-date: '2012-08-15 00:47:39'
+date: '2012-08-15 00:47:00'
 author: dima
 id: '324'
 type: post

@@ -4,5 +4,14 @@
   {{- $image = .Page.Resources.GetMatch (strings.TrimPrefix .Page.RelPermalink .Destination) -}}
 {{- end -}}
 {{- if $image -}}{{- $src = $image.RelPermalink -}}{{- end -}}
-<img src="{{ $src }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async"{{ if and $image (ne $image.MediaType.SubType "svg") }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }}>
+{{- $dimensions := false -}}
+{{- if and $image (ne $image.MediaType.SubType "svg") -}}
+  {{- $dimensions = $image -}}
+{{- else if strings.HasPrefix .Destination "/uploads/" -}}
+  {{- $file := printf "static%s" .Destination -}}
+  {{- if and (fileExists $file) (in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp") (lower (path.Ext $file))) -}}
+    {{- $dimensions = images.Config $file -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async"{{ with $dimensions }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}>
 {{- with .Title }}<span class="image-caption">{{ . }}</span>{{ end -}}

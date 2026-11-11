@@ -11,6 +11,13 @@
     {{- $cover = dict "src" $resource.RelPermalink "width" 0 "height" 0 -}}
   {{- else -}}
     {{- $cover = dict "src" ($src | relURL) "width" 0 "height" 0 -}}
+    {{- if strings.HasPrefix $src "/uploads/" -}}
+      {{- $file := printf "static%s" $src -}}
+      {{- if and (fileExists $file) (in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp") (lower (path.Ext $file))) -}}
+        {{- $dimensions := images.Config $file -}}
+        {{- $cover = dict "src" ($src | relURL) "width" $dimensions.Width "height" $dimensions.Height -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- return $cover -}}
