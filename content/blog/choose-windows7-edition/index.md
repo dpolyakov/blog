@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Выбор версии Windows 7 при установке
-date: '2010-09-26 18:19:20'
+date: '2010-09-26 18:19:00'
 author: dima
 id: '262'
 type: post

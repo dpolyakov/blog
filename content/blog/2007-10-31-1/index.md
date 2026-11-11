@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Первая запись
 date: '2007-10-31 11:28:00'
 author: dima

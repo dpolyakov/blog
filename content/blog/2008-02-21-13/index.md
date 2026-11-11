@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Если Windows XP не показывает скрытые файлы
-date: '2008-02-21 15:58:54'
+date: '2008-02-21 15:58:00'
 author: dima
 id: '13'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Релакс
-date: '2011-06-10 13:05:15'
+date: '2011-06-10 13:05:00'
 author: dima
 id: '290'
 type: post

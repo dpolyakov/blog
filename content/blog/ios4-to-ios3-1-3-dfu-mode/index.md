@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Как откатить прошивку 4.0 до 3.1.3 на iPhone 3G
-date: '2010-07-28 00:17:41'
+date: '2010-07-28 00:17:00'
 author: dima
 id: '309'
 type: post

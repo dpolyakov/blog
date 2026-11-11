@@ -1,6 +1,6 @@
 ---
 title: GTA и GTA2 бесплатно!
-date: '2009-05-26 00:48:14'
+date: '2009-05-26 00:48:00'
 author: dima
 id: '167'
 type: post

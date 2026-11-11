@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Как ускорить работу iOS4 на iPhone 3G
-date: '2010-08-13 02:30:24'
+date: '2010-08-13 02:30:00'
 author: dima
 id: '237'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Safari не открывает страницы
-date: '2011-09-08 00:20:17'
+date: '2011-09-08 00:20:00'
 author: dima
 id: '312'
 type: post

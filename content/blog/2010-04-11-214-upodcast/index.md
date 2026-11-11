@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Я — Подкастер. Первый выпуск U.Podcast уже готов.
-date: '2010-04-11 20:33:01'
+date: '2010-04-11 20:33:00'
 author: dima
 id: '298'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Как включить диспетчер задач
-date: '2010-07-06 17:54:08'
+date: '2010-07-06 17:54:00'
 author: dima
 id: '305'
 type: post

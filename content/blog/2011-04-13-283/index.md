@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Как я стал подкастером
-date: '2011-04-13 14:48:20'
+date: '2011-04-13 14:48:00'
 author: dima
 id: '283'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Это офигенно!
-date: '2011-10-07 00:45:45'
+date: '2011-10-07 00:45:00'
 author: dima
 id: '313'
 type: post

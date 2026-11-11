@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Проблемы со звуком при использовании Ati Radeon 2xxx/3xxx
-date: '2008-03-08 15:04:03'
+date: '2008-03-08 15:04:00'
 author: dima
 id: '15'
 type: post

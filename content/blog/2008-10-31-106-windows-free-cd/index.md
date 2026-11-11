@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Бесплатный диск с Windows Server 2008
-date: '2008-10-31 00:33:36'
+date: '2008-10-31 00:33:00'
 author: dima
 id: '106'
 type: post

@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Jailbreak iOS4.1. Где скачать?
-date: '2010-10-12 14:04:23'
+date: '2010-10-12 14:04:00'
 author: dima
 id: '268'
 type: post
@@ -22,14 +23,14 @@ tags:
 
 #### limera1n
 
-![](/blog/2010-10-12-268/69159851.png)
+![](/uploads/69159851.png)
 
 Поддерживает iPhone 3GS, iPod Touch 3G, iPad, iPhone 4, iPod Touch 4Gс версией ОС 4.0–4.1 (и, возможно, последующих). Пока есть версия только под Windows. Судя по строчке «Mac coming in 7 years» версию для мака ждать особо не стоит.
 [Скачать limera1n](https://limera1n.com/ "https://limera1n.com/")
 
 #### greenpois0n
 
-[![](/blog/2010-10-12-268/s88454203.jpg)](/blog/2010-10-12-268/88454203.png "Нажмите, для просмотра в полном размере...")
+[![](/uploads/s88454203.jpg)](/uploads/88454203.png "Нажмите, для просмотра в полном размере...")
 
 Поддерживает iPhone 4, iPhone 3Gs, iPod touch (3 и 4 поколение), iPad, в будущих версиях iPod touch 2-го поколения и Apple TV второго поколения. Пока так же есть версия только под Windows, но под мак обещают в скором времени выпустить.
 [Скачать greenpois0n](https://www.greenpois0n.com/ "https://www.greenpois0n.com/")
